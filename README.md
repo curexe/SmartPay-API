@@ -85,32 +85,26 @@ At this time, resultsets are not rate limited but are monitored for excessive us
   <tr>
   <td><b>Code</b></td>
   <td><b>Message</b></td>
-  <td><b>Endpoints</b></td>
   </tr>
   <tr>
   <td>0001</td>
   <td>Incorrect key</td>
-  <td>authenticate</td>
   </tr>
   <tr>
   <td>0002</td>
   <td>Incorrect token</td>
-  <td>organizations, opportunities</td>
   </tr>
   <tr>
   <td>0003</td>
   <td>Expired token; please reauthenticate using your API key</td>
-  <td>authenticate, organizations, opportunities</td>
   </tr>
   <tr>
   <td>0004</td>
   <td>The version of the API is now retired; please update your queries to resume accessing the API.</td>
-  <td>authenticate, organizations, opportunities</td>
   </tr>
   <tr>
   <td>0005</td>
   <td>Daily query cap exceeded; please review documentation on connecting asynchronously to avoid exceeding limits.</td>
-  <td>authenticate, organizations, opportunities</td>
   </tr>
 </table>
 
@@ -120,37 +114,30 @@ At this time, resultsets are not rate limited but are monitored for excessive us
   <tr>
   <td><b>Code</b></td>
   <td><b>Message</b></td>
-  <td><b>Endpoints</b></td>
   </tr>
   <tr>
   <td>0001</td>
   <td>API version deprecated and approaching retirement; please upgrade to the latest version</td>
-  <td>authenticate, organizations, opportunities</td>
   </tr>
   <tr>
   <td>0002</td>
   <td>Daily query cap imminent; please review documentation on connecting asynchronously to avoid exceeding limits.</td>
-  <td>authenticate, organizations, opportunities</td>
   </tr>
   <tr>
   <td>0003</td>
   <td>No output format specified, so defaulted to JSON</td>
-  <td>authenticate, organizations, opportunities</td>
   </tr>
   <tr>
   <td>0004</td>
   <td>No page number specified, so defaulted to 1</td>
-  <td>organizations, opportunities</td>
   </tr>
   <tr>
   <td>0005</td>
   <td>This is a truncated resultset, so not all data has been provided for all fields. Please upgrade your account to receive the full resultset.</td>
-  <td>organizations, opportunities</td>
   </tr>
   <tr>
   <td>0006</td>
   <td>Invalid input parameter received</td>
-  <td>authenticate, organizations, opportunities</td>
   </tr>
 </table>
 
