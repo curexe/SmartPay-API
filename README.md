@@ -32,13 +32,13 @@ The returned data provides the input parameters which were queried, plus a resul
   format: json,
   result: [
     token: DEF456,
-    expires_on: gmt_time
+    expires_on: "2018-01-01 12:00:00"
   ]
   errors: [
-    [789, “Incorrect key”]
+    [789, "Incorrect key"]
   ]
   warnings:[
-    [012, “Unspecified format”]
+    [012, "Unspecified format"]
   ]
 }
 ```
@@ -56,7 +56,7 @@ The token provided in the authentication phase is used as an input parameter to 
 {
   datetime: gmt_time,
   token: DEF456,
-  expires_on: gmt_time,
+  expires_on: "2018-01-01 12:00:00",
   format: json,
   page: 1,
   total_pages: 14,
