@@ -106,6 +106,14 @@ At this time, resultsets are not rate limited but are monitored for excessive us
   <td>0005</td>
   <td>Daily query cap exceeded; please review documentation on connecting asynchronously to avoid exceeding limits.</td>
   </tr>
+  <tr>
+  <td>0006</td>
+  <td>Unable to create consumer because email address already associated with retailer.</td>
+  </tr>
+  <tr>
+  <td>0007</td>
+  <td>Unable to create consumer because email address is invalid.</td>
+  </tr>
 </table>
 
 # Warning Messages
