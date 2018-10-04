@@ -1,7 +1,7 @@
 # Get Orders
 
 ~~~
-[GET] https://smartpay.curexe.com/api/1.0/get_orders
+https://smartpay.curexe.com/api/1.0/get_orders
 ~~~
 
 ## Description

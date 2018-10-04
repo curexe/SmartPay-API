@@ -1,7 +1,7 @@
 # Create Consumer
 
 ~~~
-[POST] https://smartpay.curexe.com/api/1.0/create_consumer
+https://smartpay.curexe.com/api/1.0/create_consumer
 ~~~
 
 ## Description

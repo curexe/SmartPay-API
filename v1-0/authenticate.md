@@ -1,7 +1,7 @@
 # Authenticate
 
 ~~~
-[POST] https://smartpay.curexe.com/api/1.0/authenticate
+https://smartpay.curexe.com/api/1.0/authenticate
 ~~~
 
 ## Description

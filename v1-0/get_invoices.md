@@ -1,7 +1,7 @@
 # Get Invoices
 
 ~~~
-[GET] https://smartpay.curexe.com/api/1.0/get_invoices
+https://smartpay.curexe.com/api/1.0/get_invoices
 ~~~
 
 ## Description

@@ -1,12 +1,12 @@
-# Modify Order
+# Cancel Invoice
 
 ~~~
-https://smartpay.curexe.com/api/1.0/modify_order
+https://smartpay.curexe.com/api/1.0/cancel_invoice
 ~~~
 
 ## Description
 
-The /modify_order endpoint allows retailers to modify an existing order in SmartPay. Modifying an order will impact all future invoices, but not prior invoices.
+The /cancel_invoice endpoint allows retailers to cancel any invoice in the system. If the invoice has not yet been paid, no payment will be solicited from the consumer. If the invoice has been paid, SmartPay will attempt to initiate a refund.
 
 > ***Warning**: This is a write query. Any data sent through this endpoint will be written to the SmartPay database in real-time. There is no undo. Please use with caution.*
 
@@ -29,13 +29,8 @@ The /modify_order endpoint allows retailers to modify an existing order in Smart
     <td>At this time only JSON format is available</td>
   </tr>
   <tr>
-    <td>order_id</td>
+    <td>invoice_id</td>
     <td>aBc123</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>recurring_amount</td>
-    <td>10.00</td>
     <td></td>
   </tr>
 </table>
@@ -49,13 +44,13 @@ The /modify_order endpoint allows retailers to modify an existing order in Smart
     <td><b><b>Notes</b></b></td>
   </tr>
   <tr>
-    <td>order_id</td>
+    <td>invoice_id</td>
     <td>aBc123</td>
     <td></td>
   </tr>
   <tr>
     <td>success</td>
     <td>true</td>
-    <td>"true" if update successful, "false" otherwise</td>
+    <td>"canceled" or "refund requested" if successful, "false" otherwise</td>
   </tr>
 </table>
