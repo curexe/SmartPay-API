@@ -1,7 +1,7 @@
 # Get Orders
 
 ~~~
-https://smartpay.curexe.com/api/1.0/get_orders
+https://api.smartpay.curexe.com/1-0/get_orders
 ~~~
 
 ## Description
@@ -140,5 +140,10 @@ The /get_orders endpoint allows retailers to obtain a list of orders that are as
     <td>number_of_invoices</td>
     <td>2</td>
     <td></td>
+  </tr>
+  <tr>
+    <td>enabled</td>
+    <td>true</td>
+    <td>"true" if enabled, "false" otherwise</td>
   </tr>
 </table>

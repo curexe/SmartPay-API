@@ -1,7 +1,7 @@
 # Cancel Invoice
 
 ~~~
-https://smartpay.curexe.com/api/1.0/cancel_invoice
+https://api.smartpay.curexe.com/1-0/cancel_invoice
 ~~~
 
 ## Description

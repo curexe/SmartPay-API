@@ -1,7 +1,7 @@
 # Create Consumer
 
 ~~~
-https://smartpay.curexe.com/api/1.0/create_consumer
+https://api.smartpay.curexe.com/1-0/create_consumer
 ~~~
 
 ## Description

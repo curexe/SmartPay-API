@@ -1,7 +1,7 @@
 # Get Consumers
 
 ~~~
-https://smartpay.curexe.com/api/1.0/get_consumers
+https://api.smartpay.curexe.com/1-0/get_consumers
 ~~~
 
 ## Description

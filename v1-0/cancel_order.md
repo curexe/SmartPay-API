@@ -1,7 +1,7 @@
 # Cancel Order
 
 ~~~
-https://smartpay.curexe.com/api/1.0/cancel_order
+https://api.smartpay.curexe.com/1-0/cancel_order
 ~~~
 
 ## Description

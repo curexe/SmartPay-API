@@ -1,4 +1,4 @@
-<center><a href='https://smartpay.curexe.com'><img src="https://smartpay.curexe.com/resources/img/logo.png" width="200" ></a></center>
+<a href='https://smartpay.curexe.com'><img src="https://smartpay.curexe.com/resources/img/logo.png" width="200" ></a>
 
 # How It Works
 
@@ -7,10 +7,10 @@ The Curexe API accepts queries using a two-phase approach: the authentication ha
 The URL structure for querying the API is as follows:
 
 ```
-https://smartpay.curexe.com/api/1.0/authenticate
+https://api.smartpay.curexe.com/1-0/authenticate
 ```
 
-"1.0" represents the version number, and "authenticate" represents the endpoint. All versions and endpoints will be documented here.
+"1-0" represents the version number, and "authenticate" represents the endpoint. All versions and endpoints will be documented here.
 
 # Authentication Phase
 
@@ -77,7 +77,7 @@ At this time, resultsets are not rate limited but are monitored for excessive us
 
 # Versions
 
-- [/v1.0/overview](v1-0/overview.md) * Not yet deployed
+- [v1.0](v1-0/overview.md) Draft only / not yet deployed
 
 # Error Messages
 

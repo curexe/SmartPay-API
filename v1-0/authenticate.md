@@ -1,7 +1,7 @@
 # Authenticate
 
 ~~~
-https://smartpay.curexe.com/api/1.0/authenticate
+https://api.smartpay.curexe.com/1-0/authenticate
 ~~~
 
 ## Description

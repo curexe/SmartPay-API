@@ -1,7 +1,7 @@
 # Modify Order
 
 ~~~
-https://smartpay.curexe.com/api/1.0/modify_order
+https://api.smartpay.curexe.com/1-0/modify_order
 ~~~
 
 ## Description

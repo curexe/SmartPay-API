@@ -1,7 +1,7 @@
 # Get Invoices
 
 ~~~
-https://smartpay.curexe.com/api/1.0/get_invoices
+https://api.smartpay.curexe.com/1-0/get_invoices
 ~~~
 
 ## Description
@@ -137,12 +137,17 @@ The /get_invoices endpoint allows retailers to obtain a list of invoices that ar
     <td>CAD</td>
   </tr>
   <tr>
-    <td>date_failed</td>
+    <td>enabled</td>
+    <td>true</td>
+    <td>"true" if enabled, "false" otherwise</td>
+  </tr>
+  <tr>
+    <td>date_paid</td>
     <td>2018-01-01 12:00:00</td>
     <td>Eastern time</td>
   </tr>
   <tr>
-    <td>date_paid</td>
+    <td>date_failed</td>
     <td>2018-01-01 12:00:00</td>
     <td>Eastern time</td>
   </tr>
