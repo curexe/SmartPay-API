@@ -141,10 +141,6 @@ At this time, resultsets are not rate limited but are monitored for excessive us
   </tr>
   <tr>
   <td>0005</td>
-  <td>This is a truncated resultset, so not all data has been provided for all fields. Please upgrade your account to receive the full resultset.</td>
-  </tr>
-  <tr>
-  <td>0006</td>
   <td>Invalid input parameter received</td>
   </tr>
 </table>
