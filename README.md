@@ -87,6 +87,97 @@ At this time, resultsets are not rate limited but are monitored for excessive us
   <td><b>Message</b></td>
   </tr>
   <tr>
+  <td>4347</td>
+  <td>Invalid endpoint</td>
+  </tr>
+  <tr>
+  <td>4830</td>
+  <td>Invalid key</td>
+  </tr>
+  <tr>
+  <td>2546</td>
+  <td>Invalid token</td>
+  </tr>
+  <tr>
+  <td>8344</td>
+  <td>Invalid ID</td>
+  </tr>
+  <tr>
+  <td>5783</td>
+  <td>Expired token; please reauthenticate using your API key</td>
+  </tr>
+  <tr>
+  <td>8752</td>
+  <td>The version of the API is now retired; please update your queries to resume accessing the API.</td>
+  </tr>
+  <tr>
+  <td>5074</td>
+  <td>Daily query cap exceeded; please review documentation on connecting asynchronously to avoid exceeding limits.</td>
+  </tr>
+  <tr>
+  <td>4654</td>
+  <td>Unable to create consumer because email address already exists.</td>
+  </tr>
+  <tr>
+  <td>8924</td>
+  <td>Unable to create consumer because email address is invalid.</td>
+  </tr>
+  <tr>
+  <td>6859</td>
+  <td>It's not you, it's us; something apparently went wrong on our end.</td>
+  </tr>
+</table>
+
+# Warning Messages
+
+<table>
+  <tr>
+  <td><b>Code</b></td>
+  <td><b>Message</b></td>
+  </tr>
+  <tr>
+  <td>6445</td>
+  <td>API version deprecated and approaching retirement; please upgrade to the latest version</td>
+  </tr>
+  <tr>
+  <td>6577</td>
+  <td>Daily query cap imminent; please review documentation on connecting asynchronously to avoid exceeding limits.</td>
+  </tr>
+  <tr>
+  <td>9011</td>
+  <td>No output format specified, so defaulted to JSON</td>
+  </tr>
+  <tr>
+  <td>3841</td>
+  <td>No page number specified, so defaulted to 1</td>
+  </tr>
+  <tr>
+  <td>2201</td>
+  <td>An input parameter is invalid, and was therefore ignored</td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Error Messages
+
+<table>
+  <tr>
+  <td><b>Code</b></td>
+  <td><b>Message</b></td>
+  </tr>
+  <tr>
   <td>0001</td>
   <td>Incorrect key</td>
   </tr>
