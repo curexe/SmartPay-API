@@ -49,12 +49,12 @@ The /get_invoices endpoint allows retailers to obtain a list of invoices that ar
   <tr>
     <td>created_from</td>
     <td>2018-01-01 14:00:00</td>
-    <td>Eastern time</td>
+    <td>GMT</td>
   </tr>
   <tr>
     <td>created_to</td>
     <td>2018-02-01 14:00:00</td>
-    <td>Eastern time</td>
+    <td>GMT</td>
   </tr>
 </table>
 
@@ -144,16 +144,16 @@ The /get_invoices endpoint allows retailers to obtain a list of invoices that ar
   <tr>
     <td>date_paid</td>
     <td>2018-01-01 12:00:00</td>
-    <td>Eastern time</td>
+    <td>GMT</td>
   </tr>
   <tr>
     <td>date_failed</td>
     <td>2018-01-01 12:00:00</td>
-    <td>Eastern time</td>
+    <td>GMT</td>
   </tr>
   <tr>
     <td>date_remitted</td>
     <td>2018-01-01 12:00:00</td>
-    <td>Eastern time</td>
+    <td>GMT</td>
   </tr>
 </table>

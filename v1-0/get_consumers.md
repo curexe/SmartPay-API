@@ -59,12 +59,12 @@ The /get_consumers endpoint allows retailers to obtain a list of consumers that 
   <tr>
     <td>created_from</td>
     <td>2018-01-01 14:00:00</td>
-    <td>Eastern time</td>
+    <td>GMT</td>
   </tr>
   <tr>
     <td>created_to</td>
     <td>2018-02-01 14:00:00</td>
-    <td>Eastern time</td>
+    <td>GMT</td>
   </tr>
 </table>
 
@@ -120,6 +120,11 @@ The /get_consumers endpoint allows retailers to obtain a list of consumers that 
     <td>postal_code</td>
     <td>M1M 1M1</td>
     <td></td>
+  </tr>
+  <tr>
+    <td>is_dummy</td>
+    <td>false</td>
+    <td>true or false</td>
   </tr>
   <tr>
     <td>number_of_orders</td>

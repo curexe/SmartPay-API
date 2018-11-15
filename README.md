@@ -75,6 +75,10 @@ Again, this simple result set is solely illustrative; there is no need for empty
 
 At this time, resultsets are not rate limited but are monitored for excessive use. It is strongly recommended that systems which connect with the API do so asynchronously wherever possible (i.e. not in user real-time).
 
+# Testing
+
+To test your integration with the API, create a dummy consumer and attribute orders and invoices against that consumer. All orders and invoices created for a dummy consumer will be ignored by SmartPay but still remain visible through the SmartPay website (with a "D" or other indicator denoting that they're for testing only).
+
 # Versions
 
 - [v1.0](v1-0/overview.md) Draft only / not yet deployed
@@ -115,12 +119,20 @@ At this time, resultsets are not rate limited but are monitored for excessive us
   <td>Daily query cap exceeded; please review documentation on connecting asynchronously to avoid exceeding limits.</td>
   </tr>
   <tr>
+  <td>7389</td>
+  <td>A mandatory input parameter wasn't found or was invalid.</td>
+  </tr>
+  <tr>
   <td>4654</td>
   <td>Unable to create consumer because email address already exists.</td>
   </tr>
   <tr>
-  <td>8924</td>
-  <td>Unable to create consumer because email address is invalid.</td>
+  <td>9782</td>
+  <td>Unable to modify or cancel order because order has already been cancelled.</td>
+  </tr>
+  <tr>
+  <td>7643</td>
+  <td>Unable to cancel invoice because invoice has already been cancelled.</td>
   </tr>
   <tr>
   <td>6859</td>

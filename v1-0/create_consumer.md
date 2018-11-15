@@ -73,6 +73,11 @@ The /create_consumer endpoint allows retailers to add a new consumer to their Sm
     <td>M1M 1M1</td>
     <td></td>
   </tr>
+  <tr>
+    <td>is_dummy</td>
+    <td>false</td>
+    <td>true or false</td>
+  </tr>
 </table>
 
 ## Resultset

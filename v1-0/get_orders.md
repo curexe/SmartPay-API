@@ -49,12 +49,12 @@ The /get_orders endpoint allows retailers to obtain a list of orders that are as
   <tr>
     <td>created_from</td>
     <td>2018-01-01 14:00:00</td>
-    <td>Eastern time</td>
+    <td>GMT</td>
   </tr>
   <tr>
     <td>created_to</td>
     <td>2018-02-01 14:00:00</td>
-    <td>Eastern time</td>
+    <td>GMT</td>
   </tr>
 </table>
 

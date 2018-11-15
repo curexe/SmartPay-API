@@ -41,7 +41,7 @@ The /create_order endpoint allows retailers to create a new order in SmartPay. N
   <tr>
     <td>currency</td>
     <td>CAD</td>
-    <td>Defaults to CAD</td>
+    <td>ISO code</td>
   </tr>
   <tr>
     <td>recurring_amount</td>
