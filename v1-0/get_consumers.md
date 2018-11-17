@@ -14,56 +14,67 @@ The /get_consumers endpoint allows retailers to obtain a list of consumers that 
   <tr>
     <td><b>Parameter</b></td>
     <td><b>Example</b></td>
-    <td><b><b>Notes</b></b></td>
+    <td><b>Mandatory</b></td>
+    <td><b>Notes</b></td>
   </tr>
   <tr>
     <td>token</td>
     <td>ABC123</td>
-    <td>Mandatory</td>
+    <td>Yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>format</td>
     <td>json</td>
+    <td>No</td>
     <td>At this time only JSON format is available</td>
   </tr>
   <tr>
     <td>page</td>
     <td>1</td>
+    <td>No</td>
     <td>Defaults to 1 if not specified</td>
   </tr>
   <tr>
     <td>consumer_id</td>
     <td>aBc123</td>
+    <td>No</td>
     <td></td>
   </tr>
   <tr>
     <td>order_id</td>
     <td>aBc123</td>
+    <td>No</td>
     <td></td>
   </tr>
   <tr>
     <td>invoice_id</td>
     <td>aBc123</td>
+    <td>No</td>
     <td></td>
   </tr>
   <tr>
     <td>name</td>
     <td>Rob</td>
+    <td>No</td>
     <td>Freeform keyword search of first and last name. "Rob" will return "Rob" or "Robertson".</td>
   </tr>
   <tr>
     <td>email</td>
     <td>name@domain.com</td>
+    <td>No</td>
     <td>Returns only exact matches of email addresses</td>
   </tr>
   <tr>
     <td>created_from</td>
     <td>2018-01-01 14:00:00</td>
+    <td>No</td>
     <td>GMT</td>
   </tr>
   <tr>
     <td>created_to</td>
     <td>2018-02-01 14:00:00</td>
+    <td>No</td>
     <td>GMT</td>
   </tr>
 </table>

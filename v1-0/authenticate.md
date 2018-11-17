@@ -14,16 +14,19 @@ The /authenticate endpoint is required to initiate an API session, and outputs a
   <tr>
     <td><b>Parameter</b></td>
     <td><b>Example</b></td>
-    <td><b><b>Notes</b></b></td>
+    <td><b>Mandatory</b></td>
+    <td><b>Notes</b></td>
   </tr>
   <tr>
     <td>api_key</td>
     <td>ABC123</td>
-    <td>Mandatory</td>
+    <td>Yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>format</td>
     <td>json</td>
+    <td>No</td>
     <td>At this time only JSON format is available</td>
   </tr>
 </table>

@@ -16,21 +16,25 @@ The /cancel_invoice endpoint allows retailers to cancel any invoice in the syste
   <tr>
     <td><b>Parameter</b></td>
     <td><b>Example</b></td>
-    <td><b><b>Notes</b></b></td>
+    <td><b>Mandatory</b></td>
+    <td><b>Notes</b></td>
   </tr>
   <tr>
     <td>token</td>
     <td>ABC123</td>
-    <td>Mandatory</td>
+    <td>Yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>format</td>
     <td>json</td>
+    <td>No</td>
     <td>At this time only JSON format is available</td>
   </tr>
   <tr>
     <td>invoice_id</td>
     <td>aBc123</td>
+    <td>Yes</td>
     <td></td>
   </tr>
 </table>
@@ -44,13 +48,8 @@ The /cancel_invoice endpoint allows retailers to cancel any invoice in the syste
     <td><b><b>Notes</b></b></td>
   </tr>
   <tr>
-    <td>invoice_id</td>
-    <td>aBc123</td>
-    <td></td>
-  </tr>
-  <tr>
+    <td>status</td>
     <td>success</td>
-    <td>true</td>
-    <td>"canceled" or "refund requested" if successful, "false" otherwise</td>
+    <td>"success" or "failure"</td>
   </tr>
 </table>

@@ -16,26 +16,31 @@ The /modify_order endpoint allows retailers to modify an existing order in Smart
   <tr>
     <td><b>Parameter</b></td>
     <td><b>Example</b></td>
-    <td><b><b>Notes</b></b></td>
+    <td><b>Mandatory</b></td>
+    <td><b>Notes</b></td>
   </tr>
   <tr>
     <td>token</td>
     <td>ABC123</td>
-    <td>Mandatory</td>
+    <td>Yes</td>
+    <td></td>
   </tr>
   <tr>
     <td>format</td>
     <td>json</td>
+    <td>No</td>
     <td>At this time only JSON format is available</td>
   </tr>
   <tr>
     <td>order_id</td>
     <td>aBc123</td>
+    <td>Yes</td>
     <td></td>
   </tr>
   <tr>
     <td>recurring_amount</td>
     <td>10.00</td>
+    <td>Yes</td>
     <td></td>
   </tr>
 </table>
@@ -54,8 +59,48 @@ The /modify_order endpoint allows retailers to modify an existing order in Smart
     <td></td>
   </tr>
   <tr>
-    <td>success</td>
+    <td>consumer_id</td>
+    <td>aBc123</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>John Smith</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>single_amount</td>
+    <td>10.00</td>
+    <td>CAD</td>
+  </tr>
+  <tr>
+    <td>single_amount_discounted</td>
+    <td>10.00</td>
+    <td>CAD</td>
+  </tr>
+  <tr>
+    <td>recurring_amount</td>
+    <td>10.00</td>
+    <td>CAD</td>
+  </tr>
+  <tr>
+    <td>recurring_amount_discounted</td>
+    <td>10.00</td>
+    <td>CAD</td>
+  </tr>
+  <tr>
+    <td>is_dummy</td>
     <td>true</td>
-    <td>"true" if update successful, "false" otherwise</td>
+    <td>"true" if enabled, "false" otherwise</td>
+  </tr>
+  <tr>
+    <td>is_enabled</td>
+    <td>true</td>
+    <td>"true" if enabled, "false" otherwise</td>
+  </tr>
+  <tr>
+    <td>number_of_invoices</td>
+    <td>2</td>
+    <td></td>
   </tr>
 </table>
