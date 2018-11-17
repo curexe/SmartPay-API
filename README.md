@@ -127,6 +127,10 @@ To test your integration with the API, create a dummy consumer and attribute ord
   <td>Unable to create consumer because email address already exists.</td>
   </tr>
   <tr>
+  <td>1754</td>
+  <td>Unable to delete consumer because orders for this consumer already exist. If this is a dummy consumer, all associated data will eventually be automatically deleted.</td>
+  </tr>
+  <tr>
   <td>9782</td>
   <td>Unable to modify or cancel order because order has already been cancelled.</td>
   </tr>
