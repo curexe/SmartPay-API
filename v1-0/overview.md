@@ -24,7 +24,6 @@
 Orders are the outcome of a consumer shopping experience, and will always result in one or more invoices depending on whether the order stipulates a one-time purchase or multiple recurring purchases.
 
 - [/get_orders](get_orders.md)
-- [/create_order](create_order.md)
 - [/modify_order](modify_order.md)
 - [/cancel_order](cancel_order.md)
 
