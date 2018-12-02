@@ -1,5 +1,7 @@
 <a href='https://smartpay.curexe.com'><img src="https://smartpay.curexe.com/resources/img/logo.png" width="200" ></a>
 
+Please read this entire document before attempting to interact with the SmartPay API. If this is your first time connecting to an external API, you may wish to begin with the [quick start guide](quickstart/tutorial.md).
+
 # How It Works
 
 The SmartPay API accepts queries using a two-phase approach: the authentication handshake and then the actual query itself. In either scenario, the system is queried with a version number, an endpoint (which defines the type of information requested) and a payload containing input parameters (sent by POST), and then returns a resultset.
@@ -14,7 +16,7 @@ https://api.smartpay.curexe.com/1-0/authenticate
 
 # Authentication Phase
 
-The API is queried with a key which is obtained from the SmartPay web application:
+The API is queried with a key which is obtained from the Integrate page in the SmartPay web application:
 
 ```
 {
@@ -73,15 +75,15 @@ Again, this simple result set is solely illustrative; there is no need for empty
 
 # Daily Rate Limiting
 
-At this time, resultsets are not rate limited but are monitored for excessive use. It is strongly recommended that systems which connect with the API do so asynchronously wherever possible (i.e. not in user real-time).
+At this time, resultsets are not rate limited but are monitored for excessive use. It is strongly recommended that systems which connect with the API do so asynchronously wherever possible (i.e. not in user real-time). Users who hammer the server with redundant requests at greater than reasonable frequency will be disabled to prevent performance degredation for other users.
 
 # Testing
 
-To test your integration with the API, create a dummy consumer and attribute orders and invoices against that consumer. All orders and invoices created for a dummy consumer will be ignored by SmartPay but still remain visible through the SmartPay website (with a "D" or other indicator denoting that they're for testing only).
+To test your integration with the API, create a dummy consumer and attribute orders and invoices against that consumer. All orders and invoices created for a dummy consumer will be ignored by SmartPay but still remain visible through the SmartPay website (with a "D" or other indicator denoting that they're for testing only). Dummy entities are automatically deleted within 24-48 hours.
 
 # Versions
 
-- [v1.0](v1-0/overview.md) Draft only / not yet deployed
+- [v1.0](v1-0/overview.md) **Current**
 
 # Errors and Warnings
 
