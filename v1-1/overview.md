@@ -1,6 +1,4 @@
-# API v1.0
-
-> ***Warning**: This version has been deprecated. Please update to the latest version of the API.*
+# API v1.1
 
 ## Overview
 
@@ -36,4 +34,4 @@ Invoices are generated from orders, and can be thought of as payments. An invoic
 
 ## Changelog
 
-N/A
+- Addition of payment_method as an input parameter and resultset attribute for orders and invoices
