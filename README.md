@@ -9,10 +9,10 @@ The SmartPay API accepts queries using a two-phase approach: the authentication 
 The URL structure for querying the API is as follows:
 
 ```
-https://api.smartpay.curexe.com/1-0/authenticate
+https://api.smartpay.curexe.com/1-1/authenticate
 ```
 
-"1-0" represents the version number, and "authenticate" represents the endpoint. All versions and endpoints will be documented here.
+"1-1" represents the version number, and "authenticate" represents the endpoint. All versions and endpoints will be documented here.
 
 # Authentication Phase
 
@@ -83,7 +83,8 @@ To test your integration with the API, create a dummy consumer and attribute ord
 
 # Versions
 
-- [v1.0](v1-0/overview.md) **Current**
+- [v1.1](v1-1/overview.md) **Current**
+- [v1.0](v1-0/overview.md) Deprecated
 
 # Errors and Warnings
 
