@@ -83,8 +83,9 @@ To test your integration with the API, create a dummy consumer and attribute ord
 
 # Versions
 
-- [v1.1](v1-1/overview.md) **Current**
-- [v1.0](v1-0/overview.md) Deprecated
+- [v1.2](latest_version/v1-2/overview.md) **Current**
+- [v1.1](older_versions/v1-1/overview.md) Deprecated
+- [v1.0](older_versions/v1-0/overview.md) Deprecated
 
 # Errors and Warnings
 
