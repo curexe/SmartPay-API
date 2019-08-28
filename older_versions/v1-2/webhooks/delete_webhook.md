@@ -8,7 +8,7 @@ POST https://api.smartpay.curexe.com/1-2/delete_webhook
 
 Deletes a webhook.
 
-## Input Parameters
+## Parameters
 
 <table>
   <tr>
@@ -25,7 +25,7 @@ Deletes a webhook.
   </tr>
 </table>
 
-## Results
+## Result
 
 <table>
   <tr>

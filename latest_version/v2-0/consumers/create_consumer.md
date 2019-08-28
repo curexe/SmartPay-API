@@ -23,7 +23,7 @@ Creates a new consumer.  If any mandatory parameters are omitted it will be reje
   </tr>
 </table>
 
-## Parameters
+## Body Params (JSON application/json or x-www-form-urlencoded)
 
 <table>
   <tr>

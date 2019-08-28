@@ -8,7 +8,7 @@ POST https://api.smartpay.curexe.com/1-2/modify_webhook
 
 Modifies a webhook.  This is a patch action and will only change the values submitted.
 
-## Input Parameters
+## Parameters
 
 <table>
   <tr>
@@ -31,7 +31,7 @@ Modifies a webhook.  This is a patch action and will only change the values subm
   </tr>
 </table>
 
-## Results
+## Result
 
 <table>
   <tr>

@@ -15,7 +15,7 @@ Creates a new webhook.  If any mandatory parameters are omitted it will be rejec
 > order/created<br />
 > order/cancelled
 
-## Input Parameters
+## Parameters
 
 <table>
   <tr>
@@ -38,7 +38,7 @@ Creates a new webhook.  If any mandatory parameters are omitted it will be rejec
   </tr>
 </table>
 
-## Results
+## Result
 
 <table>
   <tr>

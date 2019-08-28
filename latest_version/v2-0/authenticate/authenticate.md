@@ -33,7 +33,7 @@ $auth_token = base64_encode("$iframe_key:$api_key");
 </table>
 
 
-## Parameters
+## Body Params (JSON application/json or x-www-form-urlencoded)
 
 <table>
   <tr>

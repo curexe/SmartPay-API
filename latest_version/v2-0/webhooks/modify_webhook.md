@@ -8,7 +8,22 @@ PATCH https://api.smartpay.curexe.com/2-0/webhooks/{{WEBHOOK_ID}}
 
 Modifies a webhook.  This is a patch action and will only change the values submitted.
 
-## Input Parameters
+## Headers
+
+<table>
+  <tr>
+    <td><b>Header</b></td>
+    <td><b>Mandatory</b></td>
+    <td><b>Notes</b></td>
+  </tr>
+  <tr>
+    <td>Authentication: Bearer ACCESS_TOKEN</td>
+    <td>yes</td>
+    <td>the bearer token issued by <a href="..\authenticate\authenticate.md">authenticate</a></td>
+  </tr>
+</table>
+
+## Body Params (JSON application/json or x-www-form-urlencoded)
 
 <table>
   <tr>
@@ -18,12 +33,6 @@ Modifies a webhook.  This is a patch action and will only change the values subm
     <td><b>Notes</b></td>
   </tr>
   <tr>
-    <td>webhook_id</td>
-    <td>aBc123</td>
-    <td>Yes</td>
-    <td></td>
-  </tr>
-  <tr>
     <td>url</td>
     <td>https://site.com/webhooks</td>
     <td>Yes</td>
@@ -31,7 +40,7 @@ Modifies a webhook.  This is a patch action and will only change the values subm
   </tr>
 </table>
 
-## Results
+## Result
 
 <table>
   <tr>

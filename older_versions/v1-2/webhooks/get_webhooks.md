@@ -17,7 +17,7 @@ Will return up to 100 results at a time.  Use <b>page</b> to retreive the next r
 > order/created<br />
 > order/cancelled
 
-## Input Parameters
+## Parameters
 
 <table>
   <tr>
@@ -52,7 +52,7 @@ Will return up to 100 results at a time.  Use <b>page</b> to retreive the next r
   </tr>
 </table>
 
-## Results
+## Result
 
 <table>
   <tr>

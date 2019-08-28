@@ -10,6 +10,21 @@ Retreives a list of webhooks.  Parameters can be used to filter the list.
 
 Will return up to 100 results at a time.  Use <b>page</b> to retreive the next results in the set.
 
+## Headers
+
+<table>
+  <tr>
+    <td><b>Header</b></td>
+    <td><b>Mandatory</b></td>
+    <td><b>Notes</b></td>
+  </tr>
+  <tr>
+    <td>Authentication: Bearer ACCESS_TOKEN</td>
+    <td>yes</td>
+    <td>the bearer token issued by <a href="..\authenticate\authenticate.md">authenticate</a></td>
+  </tr>
+</table>
+
 ### The following topics are available to be subscribed to:
 > invoice/created<br />
 > invoice/paid<br />
@@ -17,7 +32,7 @@ Will return up to 100 results at a time.  Use <b>page</b> to retreive the next r
 > order/created<br />
 > order/cancelled
 
-## Input Parameters
+## Query Params (URL Encoded)
 
 <table>
   <tr>
@@ -52,7 +67,7 @@ Will return up to 100 results at a time.  Use <b>page</b> to retreive the next r
   </tr>
 </table>
 
-## Results
+## Result
 
 <table>
   <tr>
