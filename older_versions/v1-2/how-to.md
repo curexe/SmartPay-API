@@ -20,10 +20,11 @@ The first step is an authentication handshake in which you send us your API key 
 
 The second step is the actual query itself, in which you connect to one of our endpoints, send us your session token and some input parameters, and we return a resultset. For those new to APIs, endpoints can be thought of as specific URLs which returns results. All endpoints have the same URL structure:
 
-https://api.smartpay.curexe.com/1-0/authenticate
+```
+https://api.smartpay.curexe.com/1-2/authenticate
+```
 
-
-You'll notice the URL contains both a version number ("1-0") and the endpoint ("authenticate"). For a list of all endpoints, consult the full API documentation, but for the purposes of this tutorial, we'll be using the /authenticate and /create_consumer endpoints.
+You'll notice the URL contains both a version number <b>1-2</b> and the endpoint <b>authenticate</b>. For a list of all endpoints, consult the full API documentation, but for the purposes of this tutorial, we'll be using the /authenticate and /create_consumer endpoints.
 
 # Authenticating
 
