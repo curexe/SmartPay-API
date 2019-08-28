@@ -6,7 +6,9 @@ https://api.smartpay.curexe.com/1-2/get_orders
 
 ## Description
 
-Retreives a list of orders.  Will return up to 100 results at a time.  Parameters can be used to filter the list. Use <b>page</b> to retreive the next results in the set.
+Retreives a list of orders.  Will return up to 100 results at a time.  
+
+Parameters can be used to filter the list. Use <b>page</b> to retreive the next results in the set.
 
 ## Parameters
 
