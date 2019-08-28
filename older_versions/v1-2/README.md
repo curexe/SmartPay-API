@@ -7,7 +7,7 @@ The 1.2 API is built as a series of endpoints (urls) that received POST requests
 
 # How-To
 
-If you are unfamilar how to query APIs our [Quickstart Guide](quickstart/tutorial.md) shows the basics demonstraited with a free tool called PostMan to help you get started.
+If you are unfamilar how to query APIs our [How-To Guide](how-to.md) shows the basics demonstraited with a free tool called PostMan to help you get started.
 
 # API Overview
 

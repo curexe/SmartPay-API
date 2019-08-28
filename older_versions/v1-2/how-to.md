@@ -1,4 +1,4 @@
-# Quick Start Guide
+# How-To Guide
 
 This tutorial has been written for users unfamiliar with how to integrate with an external API. If this information is too rudimentary, you're encouraged to skip ahead and read the full API documentation, from which this tutorial has been adapted.
 
@@ -29,11 +29,11 @@ You'll notice the URL contains both a version number ("1-0") and the endpoint ("
 
 Configure Postman as follows. You'll obviously want to substitute your own API key for “abc123”.
 
-<img src="authenticate_query.jpg">
+<img src="assets/authenticate_query.jpg">
 
 Postman will then return the following result:
 
-<img src="authenticate_response.jpg">
+<img src="assets/authenticate_response.jpg">
 
 The returned token is your session token and is good for an hour, which should be more than enough time to query whatever data you need. If your session token does expire, you can simply reauthenticate to obtain a new one.
 
@@ -45,11 +45,11 @@ When writing integration code, it's imperative that you be responsive to errors 
 
 Now that you have a session token, it's time to query some actual data from the API. Configure Postman as follows. Note that the token below is the session token that was returned to you during authentication.
 
-<img src="create_consumer_query.jpg">
+<img src="assets/create_consumer_query.jpg">
 
 Postman will then return the following result:
 
-<img src="create_consumer_response.jpg">
+<img src="assets/create_consumer_response.jpg">
 
 In this case, the API has returned an ID for the consumer you've just created. This ID will remain a unique identifier for this consumer and can be used to modify or delete the consumer in the future.
 
