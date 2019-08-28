@@ -4,18 +4,19 @@
 
 ## Authentication
 
-- [GET /authenticate](authenticate/authenticate.md)
+- Authenticate (get bearer token)
+	* [GET /authenticate](authenticate/authenticate.md)
 
 ## Consumers
 
 - List Consumers 
 	* [GET /consumers](consumers/get_consumers.md)
 - Create Consumer 
-	* [POST /consumer](consumers/create_consumer.md)
+	* [POST /consumers](consumers/create_consumer.md)
 - Modify Consumer 
-	* [PATCH /consumer/ID](consumers/modify_consumer.md)
+	* [PATCH /consumers/ID](consumers/modify_consumer.md)
 - Delete Consumer 
-	* [DELETE /consumer/ID](consumers/delete_consumer.md)
+	* [DELETE /consumers/ID](consumers/delete_consumer.md)
 
 ## Orders
 
