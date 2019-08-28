@@ -10,7 +10,7 @@ Retreives a list of the current consumers.
 
 ## Parameters
 
-<table>
+<table width="100%">
   <tr>
     <td><b>Parameter</b></td>
     <td><b>Example</b></td>
@@ -75,7 +75,7 @@ Retreives a list of the current consumers.
 
 ## Result
 
-<table>
+<table width="100%">
   <tr>
     <td><b>Field</b></td>
     <td><b>Value</b></td>
@@ -104,7 +104,7 @@ Retreives a list of the current consumers.
   <tr>
     <td>phone</td>
     <td>555-555-5555</td>
-    <td>varies depending on user input</td>
+    <td>Format will vary depending on user input</td>
   </tr>
   <tr>
     <td>street_address</td>
