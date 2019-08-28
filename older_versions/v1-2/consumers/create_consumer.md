@@ -81,7 +81,7 @@ Creates a new consumer.
     <td>is_dummy</td>
     <td>false</td>
     <td>No</td>
-    <td>"true" or "false". Defaults to "false".</td>
+    <td><b>false</b> for live data, <b>true</b> for test 'dummy' data (defaults to false)</td>
   </tr>
 </table>
 
