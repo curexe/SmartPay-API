@@ -36,7 +36,7 @@ https://api.smartpay.curexe.com/2-0/authenticate
 
 The endpoint /authenticate receives a <b>basic auth token</b> and issues a <b>bearer token</b> in response.  First you must generate an auth_token, and then you must include it in the Authentication HTTP header with the request sent to /authenticate.
 
-The auth_token is a base64 encoded copy of your public iframe_key, and your secret api_key.  
+The auth_token is a base64 encoded copy of your public iframe_key, a colon, and and your secret api_key.
 
 PHP Example:
 ```
