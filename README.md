@@ -12,7 +12,7 @@ We recommended that data pulls are handled as batch requests only getting the la
 
 Users who request at a greater then reasonable frequency will be disabled to prevent performance degredation for other users.
 
-## Current Verison
+## Current Version
 
 <a href="latest_version/v2-0">The current version of the API is v2.0</a>
 
