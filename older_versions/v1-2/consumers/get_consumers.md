@@ -8,7 +8,7 @@ https://api.smartpay.curexe.com/1-2/get_consumers
 
 Retreives a list of the current consumers.
 
-## Input Parameters
+## Parameters
 
 <table>
   <tr>
@@ -16,18 +16,6 @@ Retreives a list of the current consumers.
     <td><b>Example</b></td>
     <td><b>Mandatory</b></td>
     <td><b>Notes</b></td>
-  </tr>
-  <tr>
-    <td>token</td>
-    <td>ABC123</td>
-    <td>Yes</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>format</td>
-    <td>json</td>
-    <td>No</td>
-    <td>At this time only JSON format is available</td>
   </tr>
   <tr>
     <td>page</td>
@@ -63,29 +51,29 @@ Retreives a list of the current consumers.
     <td>name</td>
     <td>Rob</td>
     <td>No</td>
-    <td>Freeform keyword search of first and last name. "Rob" will return "Rob" or "Robertson".</td>
+    <td>Will do partial matches</td>
   </tr>
   <tr>
     <td>email</td>
     <td>name@domain.com</td>
     <td>No</td>
-    <td>Returns only exact matches of email addresses</td>
+    <td></td>
   </tr>
   <tr>
     <td>created_from</td>
     <td>2018-01-01 14:00:00</td>
     <td>No</td>
-    <td>GMT</td>
+    <td>UTC Time</td>
   </tr>
   <tr>
     <td>created_to</td>
     <td>2018-02-01 14:00:00</td>
     <td>No</td>
-    <td>GMT</td>
+    <td>UTC Time</td>
   </tr>
 </table>
 
-## Resultset
+## Result
 
 <table>
   <tr>
@@ -110,7 +98,7 @@ Retreives a list of the current consumers.
   </tr>
   <tr>
     <td>email</td>
-    <td>john@smith.com</td>
+    <td>john.smith@email.com</td>
     <td></td>
   </tr>
   <tr>
@@ -120,7 +108,7 @@ Retreives a list of the current consumers.
   </tr>
   <tr>
     <td>street_address</td>
-    <td>1 Main Street, #100</td>
+    <td>123 Street</td>
     <td></td>
   </tr>
   <tr>
@@ -156,6 +144,6 @@ Retreives a list of the current consumers.
   <tr>
     <td>amount_purchased</td>
     <td>150.00</td>
-    <td>CAD</td>
+    <td></td>
   </tr>
 </table>
