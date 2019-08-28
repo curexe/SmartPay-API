@@ -24,69 +24,52 @@ The API is queried with a key which is obtained from the Integrate page in the S
 }
 ```
 
-The returned data provides the input parameters which were queried, plus a resultset (in this case a session token), plus any warnings and/or errors:
+The returned data is either the resultset (in this case a session token), or any errors:
 
 
 ```
 {
-  datetime: gmt_time,
-  key: ABC123,
-  format: json,
   result: [
     token: DEF456,
     expires_on: "2018-01-01 12:00:00"
   ]
+
   errors: [
-    [789, "Incorrect key"]
-  ]
-  warnings:[
-    [012, "Unspecified format"]
-  ]
+    "789": "Incorrect key",
+  ],
 }
 ```
 
-Note that this result set is solely illustrative; a token would never be provided if there were errors, only warnings.
+* Note that this result set is solely illustrative; a token would never be provided if there were errors, only warnings.
 
 Tokens will expire within one hour of issue.
 
 # Query Phase
 
-The token provided in the authentication phase is used as an input parameter to authenticate phase two: the actual data query. The result set will look something like this:
+The token provided in the authentication phase is used as an input parameter to authenticate phase two: the actual data query. The result set may look something like this:
 
 
 ```
 {
-  datetime: gmt_time,
-  token: DEF456,
-  expires_on: "2018-01-01 12:00:00",
-  format: json,
   page: 1,
-  total_pages: 14,
+  total_pages: 3,
   result: [
-  ]
-  errors: [
-  ]
-  warnings:[
+    ...
   ]
 }
 ```
 
-Again, this simple result set is solely illustrative; there is no need for empty key-value pairs.
 
 # Daily Rate Limiting
 
-At this time, resultsets are not rate limited but are monitored for excessive use. It is strongly recommended that systems which connect with the API do so asynchronously wherever possible (i.e. not in user real-time). Users who hammer the server with redundant requests at greater than reasonable frequency will be disabled to prevent performance degredation for other users.
-
-# Testing
-
-To test your integration with the API, create a dummy consumer and attribute orders and invoices against that consumer. All orders and invoices created for a dummy consumer will be ignored by SmartPay but still remain visible through the SmartPay website (with a "D" or other indicator denoting that they're for testing only). Dummy entities are automatically deleted within 24-48 hours.
+At this time, resultsets are not rate limited but are monitored for excessive use. It is strongly recommended that systems which connect with the API do so asynchronously wherever possible (i.e. not in user real-time). Users who request at greater than reasonable frequency will be disabled to prevent performance degredation for other users.
 
 # Versions
 
 - [v1.2](latest_version/v1-2/overview.md) **Current**
-- [v1.1](older_versions/v1-1/overview.md) Deprecated
-- [v1.0](older_versions/v1-0/overview.md) Deprecated
+- v1.1 Deprecated
+- v1.0 Deprecated
 
-# Errors and Warnings
+# Errors Codes
 
 [https://smartpay.curexe.com/api_error_codes](https://smartpay.curexe.com/api_error_codes)
