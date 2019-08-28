@@ -1,7 +1,7 @@
 # Delete Consumer
 
 ~~~
-https://api.smartpay.curexe.com/1-2/delete_consumer
+POST https://api.smartpay.curexe.com/1-2/delete_consumer
 ~~~
 
 ## Description

@@ -1,7 +1,7 @@
 # Create Consumer
 
 ~~~
-https://api.smartpay.curexe.com/1-2/create_consumer
+POST https://api.smartpay.curexe.com/1-2/create_consumer
 ~~~
 
 ## Description
@@ -18,18 +18,6 @@ The /create_consumer endpoint allows retailers to add a new consumer to their Sm
     <td><b>Example</b></td>
     <td><b>Mandatory</b></td>
     <td><b>Notes</b></td>
-  </tr>
-  <tr>
-    <td>token</td>
-    <td>ABC123</td>
-    <td>Yes</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>format</td>
-    <td>json</td>
-    <td>No</td>
-    <td>At this time only JSON format is available</td>
   </tr>
   <tr>
     <td>custom_consumer_id</td>

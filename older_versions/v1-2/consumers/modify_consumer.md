@@ -1,7 +1,7 @@
 # Modify Consumer
 
 ~~~
-https://api.smartpay.curexe.com/1-2/modify_consumer
+POST https://api.smartpay.curexe.com/1-2/modify_consumer
 ~~~
 
 ## Description
