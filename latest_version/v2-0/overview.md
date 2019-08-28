@@ -8,10 +8,10 @@
 
 ## Consumers
 
-- [list - GET /consumers](consumers/get_consumers.md)
-- [create - POST /consumer](consumers/create_consumer.md)
-- [modify - PATCH /consumer/ID](consumers/modify_consumer.md)
-- [delete - DELETE /consumer/ID](consumers/delete_consumer.md)
+- List [GET /consumers](consumers/get_consumers.md)
+- Create [POST /consumer](consumers/create_consumer.md)
+- Modify [PATCH /consumer/ID](consumers/modify_consumer.md)
+- Delete [DELETE /consumer/ID](consumers/delete_consumer.md)
 
 ## Orders
 
