@@ -59,7 +59,7 @@ The returned data is either the result (in this case a token), or any errors:
 }
 ```
 
-* Tokens will expire within one hour of issue and may be used to query all other endpoints.
+* Tokens will expire within one hour of issue
 
 ## Using Token Example
 
