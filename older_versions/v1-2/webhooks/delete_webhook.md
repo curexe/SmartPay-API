@@ -1,4 +1,4 @@
-# Get Orders
+# Delete Webhook
 
 ~~~
 POST https://api.smartpay.curexe.com/1-2/delete_webhook

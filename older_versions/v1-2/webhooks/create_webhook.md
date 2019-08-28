@@ -1,4 +1,4 @@
-# Get Orders
+# Create Webhook
 
 ~~~
 POST https://api.smartpay.curexe.com/1-2/create_webhook

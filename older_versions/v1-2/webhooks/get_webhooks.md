@@ -1,4 +1,4 @@
-# Get Orders
+# Get Webhooks
 
 ~~~
 POST https://api.smartpay.curexe.com/1-2/get_webhooks
