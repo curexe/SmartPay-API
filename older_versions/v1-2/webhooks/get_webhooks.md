@@ -6,7 +6,9 @@ https://api.smartpay.curexe.com/1-2/get_webhooks
 
 ## Description
 
-Retreives a list of the current webhooks.
+Retreives a list of webhooks.  Parameters can be used to filter the list.
+
+Will return up to 100 results at a time.  Use <b>page</b> to retreive the next results in the set.
 
 ## Input Parameters
 
