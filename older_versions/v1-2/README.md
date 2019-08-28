@@ -16,7 +16,7 @@ The URL structure for querying the API is as follows:
 https://api.smartpay.curexe.com/1-2/authenticate
 ```
 
-"1-2" represents the version number, and "authenticate" represents the endpoint. All versions and endpoints will be documented here.
+* <b>1-2</b> represents the version number, and <b>authenticate</b> represents the endpoint.
 
 # Authentication Example
 
