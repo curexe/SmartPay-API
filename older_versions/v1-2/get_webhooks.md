@@ -1,7 +1,7 @@
 # Get Orders
 
 ~~~
-https://api.smartpay.curexe.com/1-2/get_orders
+https://api.smartpay.curexe.com/1-2/get_webhooks
 ~~~
 
 ## Description
