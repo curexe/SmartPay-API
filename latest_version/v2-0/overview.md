@@ -1,12 +1,10 @@
 # API 2.0 Overview
 
-<img src="assets/endpoints.png">
-
 # Endpoints
 
 ## Authentication
 
-- [authenticate](authenticate/authenticate.md)
+- [/authenticate](authenticate/authenticate.md)
 
 ## Consumers
 

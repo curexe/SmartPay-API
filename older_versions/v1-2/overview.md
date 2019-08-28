@@ -6,7 +6,7 @@
 
 ## Authentication
 
-- [authenticate](authenticate/authenticate.md)
+- [/authenticate](authenticate/authenticate.md)
 
 ## Consumers
 
