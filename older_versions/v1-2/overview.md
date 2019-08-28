@@ -34,10 +34,10 @@ Invoices represent the amount to be collected from the consumer, when it was rec
 Webhooks allow you to subscribe to have status updates sent to a url when certain actions occur within SmartPay.
 
 The following topics are available to be subscribed to:
-> 1. invoice/created
-> 2. invoice/paid
-> 3. invoice/cancelled
-> 4. order/created
-> 5. order/cancelled
+> invoice/created
+> invoice/paid
+> invoice/cancelled
+> order/created
+> order/cancelled
 
 - [/get_invoices](get_invoices.md)
