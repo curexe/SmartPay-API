@@ -10,7 +10,7 @@ The /create_consumer endpoint allows retailers to add a new consumer to their Sm
 
 > ***Warning**: This is a write query. Any data sent through this endpoint will be written to the SmartPay database in real-time. There is no undo. Please use with caution.*
 
-## Input Parameters
+## Parameters
 
 <table>
   <tr>
@@ -87,7 +87,7 @@ The /create_consumer endpoint allows retailers to add a new consumer to their Sm
   </tr>
 </table>
 
-## Resultset
+## Result
 
 <table>
   <tr>

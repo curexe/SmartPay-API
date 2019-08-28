@@ -8,7 +8,7 @@ POST https://api.smartpay.curexe.com/1-2/delete_consumer
 
 Deletes a consumer.  Will be rejected if the consumer has any invoices.
 
-## Input Parameters
+## Parameters
 
 <table>
   <tr>
@@ -25,7 +25,7 @@ Deletes a consumer.  Will be rejected if the consumer has any invoices.
   </tr>
 </table>
 
-## Resultset
+## Result
 
 <table>
   <tr>
