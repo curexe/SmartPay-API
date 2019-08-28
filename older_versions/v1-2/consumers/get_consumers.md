@@ -10,7 +10,7 @@ Retreives a list of the current consumers.
 
 ## Parameters
 
-<table style="width:100%;">
+<table>
   <tr>
     <td><b>Parameter</b></td>
     <td><b>Example</b></td>
@@ -75,7 +75,7 @@ Retreives a list of the current consumers.
 
 ## Result
 
-<table style="width:100%;">
+<table>
   <tr>
     <td><b>Field</b></td>
     <td><b>Value</b></td>
