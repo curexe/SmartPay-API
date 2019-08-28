@@ -6,9 +6,7 @@ POST https://api.smartpay.curexe.com/1-2/create_consumer
 
 ## Description
 
-The /create_consumer endpoint allows retailers to add a new consumer to their SmartPay account.
-
-> ***Warning**: This is a write query. Any data sent through this endpoint will be written to the SmartPay database in real-time. There is no undo. Please use with caution.*
+Creates a new consumer.
 
 ## Parameters
 
@@ -39,9 +37,9 @@ The /create_consumer endpoint allows retailers to add a new consumer to their Sm
   </tr>
   <tr>
     <td>email</td>
-    <td>name@domain.com</td>
+    <td>john.smith@demail.com</td>
     <td>Yes</td>
-    <td>Must be valid. Must be unique.</td>
+    <td></td>
   </tr>
   <tr>
     <td>phone</td>
@@ -51,7 +49,7 @@ The /create_consumer endpoint allows retailers to add a new consumer to their Sm
   </tr>
   <tr>
     <td>street_address</td>
-    <td>1 Main Street, #100</td>
+    <td>123 Street</td>
     <td>Yes</td>
     <td></td>
   </tr>
@@ -65,13 +63,13 @@ The /create_consumer endpoint allows retailers to add a new consumer to their Sm
     <td>province_state</td>
     <td>ON</td>
     <td>Yes</td>
-    <td>ISO code</td>
+    <td></td>
   </tr>
   <tr>
     <td>country</td>
     <td>CA</td>
     <td>Yes</td>
-    <td>ISO code</td>
+    <td><a href="https://en.wikipedia.org/wiki/ISO_4217">ISO 3166-1 alpha-2</a></td>
   </tr>
   <tr>
     <td>postal_code</td>

@@ -45,7 +45,7 @@ Modifies a consumer.  This is a patch action and will only change the values sub
     <td>email</td>
     <td>john.smith@email.com</td>
     <td>No</td>
-    <td>Must be valid. Must be unique.</td>
+    <td></td>
   </tr>
   <tr>
     <td>phone</td>
@@ -67,7 +67,7 @@ Modifies a consumer.  This is a patch action and will only change the values sub
   </tr>
   <tr>
     <td>province_state</td>
-    <td>Ontario</td>
+    <td>ON</td>
     <td>No</td>
     <td></td>
   </tr>
