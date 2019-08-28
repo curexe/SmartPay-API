@@ -10,7 +10,7 @@ At this time the api is not rate limited but is monitored for excessive use.
 
 We recommended that data pulls are handled as batch requests only getting the latest data (limiting results using timestamps, e.g. <b>created_from</b>)..  keeping a local copy of required data on your own system.  Webhooks should be used to receive relevant updates so you can pull updated data as needed.  
 
-Users who request at greater than reasonable frequency will be disabled to prevent performance degredation for other users.
+Users who request at a greater then reasonable frequency will be disabled to prevent performance degredation for other users.
 
 ## Current Verison
 
