@@ -41,8 +41,6 @@ PHP Example:
 $auth_token = base64_encode("$iframe_key:$api_key");
 ```
 
-See further instructions on the <a href="authenticate\authenticate.md">authenticate page</a>.
-
 GET /2-0/authenticate
 
 Headers:

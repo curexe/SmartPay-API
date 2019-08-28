@@ -8,6 +8,29 @@ GET https://api.smartpay.curexe.com/2-0/authenticate
 
 The /authenticate endpoint is required to initiate an API session, and outputs a bearer token which is used for additional queries over the span of an hour. Once a token has expired a new one must be requested by using the /authenticate endpoint.
 
+You must generate an auth_token and include it in the Authentication HTTP header with this request.  This token is a base64 encoded copy of your public iframe_key, and your secret api_key.  
+
+PHP Example:
+```
+$auth_token = base64_encode("$iframe_key:$api_key");
+```
+
+## headers
+
+<table>
+  <tr>
+    <td><b>Header</b></td>
+    <td><b>Mandatory</b></td>
+    <td><b>Notes</b></td>
+  </tr>
+  <tr>
+    <td>Authentication: Basic AUTH_TOKEN</td>
+    <td>yes</td>
+    <td>base64 encoded iframe_key:api_key (see above)</td>
+  </tr>
+</table>
+
+
 ## Input Parameters
 
 <table>
@@ -18,10 +41,7 @@ The /authenticate endpoint is required to initiate an API session, and outputs a
     <td><b>Notes</b></td>
   </tr>
   <tr>
-    <td>api_key</td>
-    <td>ABC123</td>
-    <td>Yes</td>
-    <td></td>
+    <td>- none -</td>
   </tr>
 </table>
 
@@ -34,13 +54,18 @@ The /authenticate endpoint is required to initiate an API session, and outputs a
     <td><b>Notes</b></td>
   </tr>
   <tr>
-    <td>token</td>
+    <td>access_token</td>
     <td>ABC123</td>
     <td></td>
   </tr>
   <tr>
-    <td>expires_on</td>
-    <td>2018-01-01 13:00:00</td>
-    <td>UTC (Coordinated Universal Time)</td>
+    <td>expires_in</td>
+    <td>3600</td>
+    <td>in seconds</td>
+  </tr>
+  <tr>
+    <td>token_type</td>
+    <td>bearer</td>
+    <td></td>
   </tr>
 </table>
