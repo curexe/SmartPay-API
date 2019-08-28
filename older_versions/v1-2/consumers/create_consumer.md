@@ -21,7 +21,7 @@ Creates a new consumer.  If any mandatory parameters are omitted it will be reje
     <td>custom_consumer_id</td>
     <td>aBc123</td>
     <td>No</td>
-    <td>Any alphanumeric ID you choose, up to a maximum of 32 characters</td>
+    <td>Configurable custom alphanumeric ID, up to a maximum of 32 characters</td>
   </tr>
   <tr>
     <td>first_name</td>

@@ -1,14 +1,14 @@
 # Get Invoices
 
 ~~~
-https://api.smartpay.curexe.com/1-2/get_invoices
+POST https://api.smartpay.curexe.com/1-2/get_invoices
 ~~~
 
 ## Description
 
-The /get_invoices endpoint allows retailers to obtain a list of invoices that are associated with their SmartPay account.
+Retreives a list of invoices.  Will return up to 100 results at a time.  Parameters can be used to filter the list. Use <b>page</b> to retreive the next results in the set.
 
-## Input Parameters
+## Parameters
 
 <table>
   <tr>
@@ -18,25 +18,13 @@ The /get_invoices endpoint allows retailers to obtain a list of invoices that ar
     <td><b>Notes</b></td>
   </tr>
   <tr>
-    <td>token</td>
-    <td>ABC123</td>
-    <td>Yes</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>format</td>
-    <td>json</td>
-    <td>No</td>
-    <td>At this time only JSON format is available</td>
-  </tr>
-  <tr>
     <td>page</td>
     <td>1</td>
     <td>No</td>
     <td>Defaults to 1 if not specified</td>
   </tr>
   <tr>
-    <td>consumer_id</td>
+    <td>invoice_id</td>
     <td>aBc123</td>
     <td>No</td>
     <td></td>
@@ -48,7 +36,7 @@ The /get_invoices endpoint allows retailers to obtain a list of invoices that ar
     <td></td>
   </tr>
   <tr>
-    <td>invoice_id</td>
+    <td>consumer_id</td>
     <td>aBc123</td>
     <td>No</td>
     <td></td>
@@ -57,23 +45,23 @@ The /get_invoices endpoint allows retailers to obtain a list of invoices that ar
     <td>payment_method</td>
     <td>d</td>
     <td>No</td>
-    <td>"d" for Debit, "e" for eTransfer</td>
+    <td><b>d</b> for Debit, <b>e</b>b> for eTransfer</td>
   </tr>
   <tr>
     <td>created_from</td>
     <td>2018-01-01 14:00:00</td>
     <td>No</td>
-    <td>GMT</td>
+    <td>UTC (Coordinated Universal Time)</td>
   </tr>
   <tr>
     <td>created_to</td>
     <td>2018-02-01 14:00:00</td>
     <td>No</td>
-    <td>GMT</td>
+    <td>UTC (Coordinated Universal Time)</td>
   </tr>
 </table>
 
-## Resultset
+## Result
 
 <table>
   <tr>
@@ -104,46 +92,36 @@ The /get_invoices endpoint allows retailers to obtain a list of invoices that ar
   <tr>
     <td>amount</td>
     <td>10.00</td>
-    <td>CAD</td>
+    <td>CAD - amount invoiced</td>
   </tr>
   <tr>
     <td>amount_discounted</td>
     <td>10.00</td>
-    <td>CAD</td>
-  </tr>
-  <tr>
-    <td>amount_remitted</td>
-    <td>10.00</td>
-    <td>CAD</td>
+    <td>CAD - amount invoiced, after any discounts applied</td>
   </tr>
   <tr>
     <td>payment_method</td>
     <td>d</td>
-    <td>"d" for Debit, "e" for eTransfer</td>
+    <td><b>d</b> for Debit, <b>e</b> for eTransfer</td>
   </tr>
   <tr>
     <td>is_dummy</td>
     <td>true</td>
-    <td>"true" if enabled, "false" otherwise</td>
+    <td><b>false</b> for live data, <b>true</b> for test 'dummy' data</td>
   </tr>
   <tr>
     <td>is_enabled</td>
     <td>true</td>
-    <td>"true" if enabled, "false" otherwise</td>
+    <td><b>true</b> if enabled, <b>false</b> otherwise</td>
   </tr>
   <tr>
     <td>date_paid</td>
     <td>2018-01-01 12:00:00</td>
-    <td>GMT</td>
+    <td>UTC (Coordinated Universal Time)</td>
   </tr>
   <tr>
     <td>date_failed</td>
     <td>2018-01-01 12:00:00</td>
-    <td>GMT</td>
-  </tr>
-  <tr>
-    <td>date_remitted</td>
-    <td>2018-01-01 12:00:00</td>
-    <td>GMT</td>
+    <td>UTC (Coordinated Universal Time), null while there are no payment issues</td>
   </tr>
 </table>
