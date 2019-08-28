@@ -104,7 +104,7 @@ Retreives a list of the current consumers.
   <tr>
     <td>phone</td>
     <td>555-555-5555</td>
-    <td>Format will vary depending on user input</td>
+    <td>varies depending on user input</td>
   </tr>
   <tr>
     <td>street_address</td>
