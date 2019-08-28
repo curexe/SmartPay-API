@@ -3,11 +3,11 @@
 ~~~
 PUT https://api.smartpay.curexe.com/2-0/webhooks/{{WEBHOOK_ID}}/actions/test
 ~~~
-* replace {{WEBHOOK_ID}} with the actual consumer_id
+* replace {{WEBHOOK_ID}} with the actual webhook_id
 
 ## Description
 
-Tests a webhook.  Requests the server to send a test notification to the url of this webhook.
+Test a webhook.  Requests the server to send a test notification to the url of this webhook.  This notification will include { is_dummy:true } as part of it's payload.
 
 ## Headers
 

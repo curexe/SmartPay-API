@@ -3,7 +3,7 @@
 ~~~
 DELETE https://api.smartpay.curexe.com/2-0/webhooks/{{WEBHOOK_ID}}
 ~~~
-* replace {{WEBHOOK_ID}} with the actual consumer_id
+* replace {{WEBHOOK_ID}} with the actual webhook_id
 
 ## Description
 
