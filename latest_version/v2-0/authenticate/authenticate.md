@@ -17,7 +17,7 @@ PHP Example:
 $auth_token = base64_encode("$iframe_key:$api_key");
 ```
 
-## headers
+## Headers
 
 <table>
   <tr>
@@ -33,7 +33,7 @@ $auth_token = base64_encode("$iframe_key:$api_key");
 </table>
 
 
-## Input Parameters
+## Parameters
 
 <table>
   <tr>
@@ -47,7 +47,7 @@ $auth_token = base64_encode("$iframe_key:$api_key");
   </tr>
 </table>
 
-## Resultset
+## Result
 
 <table>
   <tr>

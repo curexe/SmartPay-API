@@ -8,6 +8,21 @@ POST https://api.smartpay.curexe.com/2-0/consumers
 
 Creates a new consumer.  If any mandatory parameters are omitted it will be rejected.
 
+## Headers
+
+<table>
+  <tr>
+    <td><b>Header</b></td>
+    <td><b>Mandatory</b></td>
+    <td><b>Notes</b></td>
+  </tr>
+  <tr>
+    <td>Authentication: Bearer ACCESS_TOKEN</td>
+    <td>yes</td>
+    <td>the bearer token issued by <a href="..\authenticate\authenticate.md">authenticate</a></td>
+  </tr>
+</table>
+
 ## Parameters
 
 <table>
