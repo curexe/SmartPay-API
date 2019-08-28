@@ -1,6 +1,6 @@
 # API v1.2
 
-Please read this entire document before attempting to interact with the SmartPay API. If this is your first time connecting to an external API, you may wish to begin with the [quick start guide](quickstart/tutorial.md).
+The 1.2 API is built as a series of endpoints (urls) that received POST requests and respond with data.  All incoming data is assumed to be sent as form-data.
 
 # Overview
 
