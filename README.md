@@ -6,7 +6,7 @@ The SmartPay API requires a registered <a href="https://smartpay.curexe.com">Sma
 
 ## Daily Rate Limiting
 
-At this time, resultsets are not rate limited but are monitored for excessive use. It is strongly recommended that systems which connect with the API do so asynchronously wherever possible (i.e. not in user real-time). Users who request at greater than reasonable frequency will be disabled to prevent performance degredation for other users.
+At this time the api is not rate limited but is monitored for excessive use. It is strongly recommended that webhooks are used to receive updates and to do data pulls as batch queries only getting the latest data (filtering by timestamps) and keeping a local copy on your own system.  This limits how frequently you need to query the API.  Users who request at greater than reasonable frequency will be disabled to prevent performance degredation for other users.
 
 ## Current Verison
 
