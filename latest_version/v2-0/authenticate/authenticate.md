@@ -1,12 +1,12 @@
 # Authenticate
 
 ~~~
-POST https://api.smartpay.curexe.com/1-2/authenticate
+GET https://api.smartpay.curexe.com/2-0/authenticate
 ~~~
 
 ## Description
 
-The /authenticate endpoint is required to initiate an API session, and outputs a session token which is used for additional queries over the span of an hour. Once a session token has expired, a new one must be requested by using the /authenticate endpoint.
+The /authenticate endpoint is required to initiate an API session, and outputs a bearer token which is used for additional queries over the span of an hour. Once a token has expired a new one must be requested by using the /authenticate endpoint.
 
 ## Input Parameters
 

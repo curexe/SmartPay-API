@@ -1,14 +1,14 @@
-# Delete Webhook
+# Delete Consumer
 
 ~~~
-POST https://api.smartpay.curexe.com/1-2/delete_webhook
+DELETE https://api.smartpay.curexe.com/2-0/consumers/{{CONSUMER_ID}}
 ~~~
 
 ## Description
 
-Deletes a webhook.
+Deletes a consumer.  Will be rejected if the consumer has any invoices.
 
-## Input Parameters
+## Parameters
 
 <table>
   <tr>
@@ -18,14 +18,11 @@ Deletes a webhook.
     <td><b>Notes</b></td>
   </tr>
   <tr>
-    <td>webhook_id</td>
-    <td>aBc123</td>
-    <td>Yes</td>
-    <td></td>
+    <td colspan="4">- none -</td>
   </tr>
 </table>
 
-## Results
+## Result
 
 <table>
   <tr>

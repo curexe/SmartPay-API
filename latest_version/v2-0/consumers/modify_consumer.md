@@ -1,12 +1,12 @@
-# Create Consumer
+# Modify Consumer
 
 ~~~
-POST https://api.smartpay.curexe.com/1-2/create_consumer
+PATCH https://api.smartpay.curexe.com/2-0/consumers/{{CONSUMER_ID}}
 ~~~
 
 ## Description
 
-Creates a new consumer.  If any mandatory parameters are omitted it will be rejected.
+Modifies a consumer.  This is a patch action and will only change the values submitted.
 
 ## Parameters
 
@@ -26,62 +26,56 @@ Creates a new consumer.  If any mandatory parameters are omitted it will be reje
   <tr>
     <td>first_name</td>
     <td>John</td>
-    <td>Yes</td>
+    <td>No</td>
     <td></td>
   </tr>
   <tr>
     <td>last_name</td>
     <td>Smith</td>
-    <td>Yes</td>
+    <td>No</td>
     <td></td>
   </tr>
   <tr>
     <td>email</td>
-    <td>john.smith@demail.com</td>
-    <td>Yes</td>
+    <td>john.smith@email.com</td>
+    <td>No</td>
     <td></td>
   </tr>
   <tr>
     <td>phone</td>
     <td>555-555-5555</td>
-    <td>Yes</td>
+    <td>No</td>
     <td></td>
   </tr>
   <tr>
     <td>street_address</td>
     <td>123 Street</td>
-    <td>Yes</td>
+    <td>No</td>
     <td></td>
   </tr>
   <tr>
     <td>city</td>
     <td>Toronto</td>
-    <td>Yes</td>
+    <td>No</td>
     <td></td>
   </tr>
   <tr>
     <td>province_state</td>
     <td>ON</td>
-    <td>Yes</td>
+    <td>No</td>
     <td></td>
   </tr>
   <tr>
     <td>country</td>
     <td>CA</td>
-    <td>Yes</td>
+    <td>No</td>
     <td><a href="https://en.wikipedia.org/wiki/ISO_4217">ISO 3166-1 alpha-2</a></td>
   </tr>
   <tr>
     <td>postal_code</td>
     <td>M1M 1M1</td>
-    <td>Yes</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>is_dummy</td>
-    <td>false</td>
     <td>No</td>
-    <td><b>false</b> for live data, <b>true</b> for test 'dummy' data (defaults to false)</td>
+    <td></td>
   </tr>
 </table>
 

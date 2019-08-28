@@ -1,12 +1,19 @@
-# Modify Webhook
+# Create Webhook
 
 ~~~
-POST https://api.smartpay.curexe.com/1-2/modify_webhook
+POST https://api.smartpay.curexe.com/2-0/webhooks
 ~~~
 
 ## Description
 
-Modifies a webhook.  This is a patch action and will only change the values submitted.
+Creates a new webhook.  If any mandatory parameters are omitted it will be rejected.
+
+### The following topics are available to be subscribed to:
+> invoice/created<br />
+> invoice/paid<br />
+> invoice/cancelled<br />
+> order/created<br />
+> order/cancelled
 
 ## Input Parameters
 
@@ -18,16 +25,16 @@ Modifies a webhook.  This is a patch action and will only change the values subm
     <td><b>Notes</b></td>
   </tr>
   <tr>
-    <td>webhook_id</td>
-    <td>aBc123</td>
+    <td>topic</td>
+    <td>invoice/created</td>
     <td>Yes</td>
-    <td></td>
+    <td>Must be a valid topic</td>
   </tr>
   <tr>
     <td>url</td>
     <td>https://site.com/webhooks</td>
     <td>Yes</td>
-    <td></td>
+    <td>Must be a valid URL, must respond <b>200 OK</b> to requests</td>
   </tr>
 </table>
 

@@ -1,7 +1,7 @@
 # Get Webhooks
 
 ~~~
-POST https://api.smartpay.curexe.com/1-2/get_webhooks
+GET https://api.smartpay.curexe.com/2-0/webhooks
 ~~~
 
 ## Description
@@ -9,6 +9,13 @@ POST https://api.smartpay.curexe.com/1-2/get_webhooks
 Retreives a list of webhooks.  Parameters can be used to filter the list.
 
 Will return up to 100 results at a time.  Use <b>page</b> to retreive the next results in the set.
+
+### The following topics are available to be subscribed to:
+> invoice/created<br />
+> invoice/paid<br />
+> invoice/cancelled<br />
+> order/created<br />
+> order/cancelled
 
 ## Input Parameters
 
