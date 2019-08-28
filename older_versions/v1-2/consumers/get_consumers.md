@@ -134,7 +134,7 @@ Retreives a list of the current consumers.
   <tr>
     <td>is_dummy</td>
     <td>false</td>
-    <td>true or false</td>
+    <td>real data is false, test 'dummy' data is true</td>
   </tr>
   <tr>
     <td>number_of_orders</td>
