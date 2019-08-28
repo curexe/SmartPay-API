@@ -18,7 +18,7 @@ Users who request at a greater then reasonable frequency will be disabled to pre
 
 ## Version History
 
-- [v2.0](latest_version/v2-0) **Current**
+- [v2.0 **Current**](latest_version/v2-0) 
 - [v1.2](older_versions/v1-2) Deprecated (2019-08-29)
 - v1.1 Deprecated
 - v1.0 Deprecated
