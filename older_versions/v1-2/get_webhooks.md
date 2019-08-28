@@ -6,7 +6,7 @@ https://api.smartpay.curexe.com/1-2/get_orders
 
 ## Description
 
-The /get_orders endpoint allows retailers to obtain a list of orders that are associated with their SmartPay account.
+Retreives a list of the current webhooks.
 
 ## Input Parameters
 
