@@ -91,7 +91,7 @@ Modifies a consumer.  This is a patch action and will only change the values sub
   <tr>
     <td><b>Field</b></td>
     <td><b>Value</b></td>
-    <td><b><b>Notes</b></b></td>
+    <td><b>Notes</b></td>
   </tr>
   <tr>
     <td>consumer_id</td>

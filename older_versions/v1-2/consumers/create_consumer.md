@@ -91,7 +91,7 @@ Creates a new consumer.  If any mandatory parameters are omitted it will be reje
   <tr>
     <td><b>Field</b></td>
     <td><b>Value</b></td>
-    <td><b><b>Notes</b></b></td>
+    <td><b>Notes</b></td>
   </tr>
   <tr>
     <td>consumer_id</td>

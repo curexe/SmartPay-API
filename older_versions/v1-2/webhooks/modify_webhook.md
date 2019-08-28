@@ -6,9 +6,7 @@ POST https://api.smartpay.curexe.com/1-2/modify_webhook
 
 ## Description
 
-Retreives a list of webhooks.  Parameters can be used to filter the list.
-
-Will return up to 100 results at a time.  Use <b>page</b> to retreive the next results in the set.
+Modifies a webhook.  This is a patch action and will only change the values submitted.
 
 ## Input Parameters
 
@@ -20,27 +18,15 @@ Will return up to 100 results at a time.  Use <b>page</b> to retreive the next r
     <td><b>Notes</b></td>
   </tr>
   <tr>
-    <td>page</td>
-    <td>1</td>
-    <td>No</td>
-    <td>Defaults to 1 if not specified</td>
-  </tr>
-  <tr>
     <td>webhook_id</td>
     <td>aBc123</td>
-    <td>No</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>topic</td>
-    <td>invoice/created</td>
-    <td>No</td>
+    <td>Yes</td>
     <td></td>
   </tr>
   <tr>
     <td>url</td>
-    <td>https://www.my-site.com/webhooks</td>
-    <td>No</td>
+    <td>https://site.com/webhooks</td>
+    <td>Yes</td>
     <td></td>
   </tr>
 </table>
@@ -51,21 +37,11 @@ Will return up to 100 results at a time.  Use <b>page</b> to retreive the next r
   <tr>
     <td><b>Field</b></td>
     <td><b>Value</b></td>
-    <td><b><b>Notes</b></b></td>
+    <td><b>Notes</b></td>
   </tr>
   <tr>
     <td>webhook_id</td>
     <td>aBc123</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>topic</td>
-    <td>invoice/created</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>url</td>
-    <td>https://www.my-site.com/webhooks</td>
     <td></td>
   </tr>
 </table>

@@ -25,7 +25,7 @@ Creates a new webhook.  If any mandatory parameters are omitted it will be rejec
   </tr>
   <tr>
     <td>url</td>
-    <td>https://www.my-site.com/webhooks</td>
+    <td>https://site.com/webhooks</td>
     <td>Yes</td>
     <td>Must be a valid URL, must respond <b>200 OK</b> to requests</td>
   </tr>
@@ -37,7 +37,7 @@ Creates a new webhook.  If any mandatory parameters are omitted it will be rejec
   <tr>
     <td><b>Field</b></td>
     <td><b>Value</b></td>
-    <td><b><b>Notes</b></b></td>
+    <td><b>Notes</b></td>
   </tr>
   <tr>
     <td>webhook_id</td>

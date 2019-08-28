@@ -31,7 +31,7 @@ Deletes a consumer.  Will be rejected if the consumer has any invoices.
   <tr>
     <td><b>Field</b></td>
     <td><b>Value</b></td>
-    <td><b><b>Notes</b></b></td>
+    <td><b>Notes</b></td>
   </tr>
   <tr>
     <td>status</td>

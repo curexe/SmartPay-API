@@ -31,7 +31,7 @@ The /authenticate endpoint is required to initiate an API session, and outputs a
   <tr>
     <td><b>Field</b></td>
     <td><b>Value</b></td>
-    <td><b><b>Notes</b></b></td>
+    <td><b>Notes</b></td>
   </tr>
   <tr>
     <td>token</td>
@@ -41,6 +41,6 @@ The /authenticate endpoint is required to initiate an API session, and outputs a
   <tr>
     <td>expires_on</td>
     <td>2018-01-01 13:00:00</td>
-    <td>GMT</td>
+    <td>UTC (Coordinated Universal Time)</td>
   </tr>
 </table>
