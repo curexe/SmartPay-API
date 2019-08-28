@@ -41,7 +41,7 @@ $auth_token = base64_encode("$iframe_key:$api_key");
     <td><b>Notes</b></td>
   </tr>
   <tr>
-    <td>- none -</td>
+    <td colspan="4">- none -</td>
   </tr>
 </table>
 
