@@ -22,7 +22,7 @@ https://api.smartpay.curexe.com/1-2/authenticate
 
 The endpoint /authenticate is queried with a api_key.  
 
-<i>To acquire an api_key: after you have registered with SmartPay, your api key is available in the <b>Integrate</b> section of the dashboard.</i>
+<i>Getting an api_key: after registering with SmartPay your api key is available in the <b>Integrate</b> section of the dashboard.</i>
 
 POST /1-2/authenticate
 ```
