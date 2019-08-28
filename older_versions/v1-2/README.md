@@ -6,6 +6,10 @@ The 1.2 API is built as a series of endpoints (urls) that received POST requests
 
 See the [Overview Document](overview.md) for details about the endpoint structure of the 1.2 API
 
+# How-To
+
+If you are unfamilar how to query APIs our [Quickstart Guide](quickstart/tutorial.md) shows the basics demonstraited with a free tool called PostMan to help you get started.
+
 # Authentication & Tokens
 
 The SmartPay API accepts queries using a two-phase approach: the authentication handshake and then the actual query itself. In either scenario, the system is queried with a version number, an endpoint (which defines the type of information requested) and a payload containing input parameters (sent by POST), and then returns a resultset.
