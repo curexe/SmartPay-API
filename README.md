@@ -2,7 +2,7 @@
 
 # Getting Started
 
-The SmartPay API requires a registered SmartPay account to access.
+The SmartPay API requires a registered <a href="https://smartpay.curexe.com">SmartPay Account</a> to use.
 
 ## Daily Rate Limiting
 
