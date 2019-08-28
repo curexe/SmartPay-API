@@ -2,7 +2,7 @@
 
 ## Overview
 
-<img src="diagram.png">
+<img src="diagram-24tgad.png">
 
 ## Endpoints
 
