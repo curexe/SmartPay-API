@@ -2,13 +2,13 @@
 
 ## Overview
 
-<img src="diagram-24tgad.png">
+<img src="assets/endpoints.png">
 
 ## Endpoints
 
 ### Authentication
 
-- [authenticate](authenticate.md)
+- [authenticate](authenticate/authenticate.md)
 
 ### Consumers
 

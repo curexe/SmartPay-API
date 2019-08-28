@@ -35,7 +35,7 @@ The returned data is either the resultset (in this case a session token), or any
   ]
 
   errors: [
-    "789": "Incorrect key",
+    "1001": "Invalid key",
   ],
 }
 ```
