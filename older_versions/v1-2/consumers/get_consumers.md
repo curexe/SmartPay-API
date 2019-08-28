@@ -49,13 +49,13 @@ Retreives a list of the current consumers.
   </tr>
   <tr>
     <td>name</td>
-    <td>Rob</td>
+    <td>Joh</td>
     <td>No</td>
     <td>Will do partial matches</td>
   </tr>
   <tr>
     <td>email</td>
-    <td>name@domain.com</td>
+    <td>john.smith@email.com</td>
     <td>No</td>
     <td></td>
   </tr>
