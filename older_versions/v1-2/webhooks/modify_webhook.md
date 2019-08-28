@@ -1,7 +1,7 @@
 # Get Orders
 
 ~~~
-POST https://api.smartpay.curexe.com/1-2/get_webhooks
+POST https://api.smartpay.curexe.com/1-2/modify_webhook
 ~~~
 
 ## Description
