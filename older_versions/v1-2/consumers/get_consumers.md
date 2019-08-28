@@ -6,7 +6,7 @@ POST https://api.smartpay.curexe.com/1-2/get_consumers
 
 ## Description
 
-Retreives a list of the current consumers.
+Retreives a list of consumers (100 at a time).  You can use parameters to filter the list, and the page param to request additional results.
 
 ## Parameters
 

@@ -6,7 +6,7 @@ POST https://api.smartpay.curexe.com/1-2/create_consumer
 
 ## Description
 
-Creates a new consumer.
+Creates a new consumer.  If any mandatory parameters are omitted it will be rejected.
 
 ## Parameters
 
