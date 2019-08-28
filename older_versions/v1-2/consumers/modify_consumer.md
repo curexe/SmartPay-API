@@ -6,7 +6,7 @@ https://api.smartpay.curexe.com/1-2/modify_consumer
 
 ## Description
 
-Updates a consumer.  This is a patch action and will only change the values submitted.
+Modifies a consumer.  This is a patch action and will only change the values submitted.
 
 ## Input Parameters
 
@@ -16,18 +16,6 @@ Updates a consumer.  This is a patch action and will only change the values subm
     <td><b>Example</b></td>
     <td><b>Mandatory</b></td>
     <td><b>Notes</b></td>
-  </tr>
-  <tr>
-    <td>token</td>
-    <td>ABC123</td>
-    <td>Yes</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>format</td>
-    <td>json</td>
-    <td>No</td>
-    <td>At this time only JSON format is available</td>
   </tr>
   <tr>
     <td>consumer_id</td>
@@ -55,7 +43,7 @@ Updates a consumer.  This is a patch action and will only change the values subm
   </tr>
   <tr>
     <td>email</td>
-    <td>name@domain.com</td>
+    <td>john.smith@email.com</td>
     <td>No</td>
     <td>Must be valid. Must be unique.</td>
   </tr>
@@ -67,7 +55,7 @@ Updates a consumer.  This is a patch action and will only change the values subm
   </tr>
   <tr>
     <td>street_address</td>
-    <td>1 Main Street, #100</td>
+    <td>123 Street</td>
     <td>No</td>
     <td></td>
   </tr>
@@ -79,15 +67,15 @@ Updates a consumer.  This is a patch action and will only change the values subm
   </tr>
   <tr>
     <td>province_state</td>
-    <td>ON</td>
+    <td>Ontario</td>
     <td>No</td>
-    <td>ISO code</td>
+    <td></td>
   </tr>
   <tr>
     <td>country</td>
     <td>CA</td>
     <td>No</td>
-    <td>ISO code</td>
+    <td><a href="https://en.wikipedia.org/wiki/ISO_4217">ISO 3166-1 alpha-2</a></td>
   </tr>
   <tr>
     <td>postal_code</td>
