@@ -20,7 +20,7 @@ https://api.smartpay.curexe.com/1-2/authenticate
 
 # Authentication Example
 
-The API is queried with a key which is obtained from the Integrate page in the SmartPay web application:
+The API is queried with a api_key.  <i>To acquire an api_key: after you have registered with SmartPay, your api key is available in the <b>Integrate</b> section of the dashboard.</i>
 
 ```
 {
