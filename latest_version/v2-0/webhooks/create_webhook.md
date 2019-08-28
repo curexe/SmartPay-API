@@ -8,6 +8,8 @@ POST https://api.smartpay.curexe.com/2-0/webhooks
 
 Creates a new webhook.  If any mandatory parameters are omitted it will be rejected.
 
+Note: If a webhook url is unreachable 10 times the webhook will be disabled.
+
 ## Headers
 
 <table>
