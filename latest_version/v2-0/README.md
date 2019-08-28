@@ -34,7 +34,9 @@ https://api.smartpay.curexe.com/2-0/authenticate
 
 <i>Getting an api_key: after registering with SmartPay your api key is available in the <b>Integrate</b> section of the dashboard.</i>
 
-The endpoint /authenticate is queried to received a bearer token.  You must generate an auth_token and include it in the Authentication HTTP header with this request.  This token is a base64 encoded copy of your public iframe_key, and your secret api_key.  
+The endpoint /authenticate is queried to received a <b>basic token</b>.  You must generate an auth_token and include it in the Authentication HTTP header with this request.
+
+The auth_token is a base64 encoded copy of your public iframe_key, and your secret api_key.  
 
 PHP Example:
 ```
