@@ -4,14 +4,14 @@
 
 ## Authentication
 
-- [/authenticate](authenticate/authenticate.md)
+- [GET /authenticate](authenticate/authenticate.md)
 
 ## Consumers
 
-- [/get_consumers](consumers/get_consumers.md)
-- [/create_consumer](consumers/create_consumer.md)
-- [/modify_consumer](consumers/modify_consumer.md)
-- [/delete_consumer](consumers/delete_consumer.md)
+- [list - GET /consumers](consumers/get_consumers.md)
+- [create - POST /consumer](consumers/create_consumer.md)
+- [modify - PATCH /consumer/ID](consumers/modify_consumer.md)
+- [delete - DELETE /consumer/ID](consumers/delete_consumer.md)
 
 ## Orders
 
