@@ -7,7 +7,9 @@ PUT https://api.smartpay.curexe.com/2-0/webhooks/{{WEBHOOK_ID}}/actions/test
 
 ## Description
 
-Test a webhook.  Requests the server to send a test notification to the url of this webhook.  This notification will include { is_dummy:true } as part of it's payload.
+Test a webhook.  Requests the server to send a test notification to the url of this webhook.  
+
+The webhook notification will include { is_dummy:true } as part of it's payload.
 
 ## Headers
 
