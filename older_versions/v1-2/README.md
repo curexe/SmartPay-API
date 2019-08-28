@@ -20,18 +20,18 @@ https://api.smartpay.curexe.com/1-2/authenticate
 
 # Authentication Example
 
-The API is queried with a api_key.  
+The endpoint /authenticate is queried with a api_key.  
 
 <i>To acquire an api_key: after you have registered with SmartPay, your api key is available in the <b>Integrate</b> section of the dashboard.</i>
 
+POST /1-2/authenticate
 ```
 {
   api_key: ABC123
 }
 ```
 
-The returned data is either the resultset (in this case a session token), or any errors:
-
+The returned data is either the result (in this case a token), or any errors:
 
 ```
 {
@@ -50,7 +50,7 @@ The returned data is either the resultset (in this case a session token), or any
 }
 ```
 
-* Tokens will expire within one hour of issue.
+* Tokens will expire within one hour of issue and may be used to query all other endpoints.
 
 # Query Phase
 
