@@ -21,7 +21,7 @@ Creates a new webhook.  If any mandatory parameters are omitted it will be rejec
     <td>topic</td>
     <td>invoice/created</td>
     <td>Yes</td>
-    <td>Must be a valid [webhooks topic](overview.md)</td>
+    <td>Must be a valid <a href="overview.md">webhooks topic</a></td>
   </tr>
   <tr>
     <td>url</td>
