@@ -52,9 +52,9 @@ The returned data is either the result (in this case a token), or any errors:
 
 * Tokens will expire within one hour of issue and may be used to query all other endpoints.
 
-# Query Phase
+# Using Token Example
 
-The token provided in the authentication phase is used as an input parameter to authenticate phase two: the actual data query. The result set may look something like this:
+The token received from /authenticate is used to query all other endpoints for data. 
 
 POST /1-2/get_consumers
 ```
