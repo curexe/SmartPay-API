@@ -9,6 +9,8 @@ PATCH https://api.smartpay.curexe.com/2-0/webhooks/{{WEBHOOK_ID}}
 
 Modifies a webhook.  This is a patch action and will only change the values submitted.
 
+Note: If a webhook url is unreachable 10 times the webhook will be disabled.
+
 ## Headers
 
 <table>
