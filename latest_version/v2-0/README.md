@@ -50,7 +50,7 @@ Headers:
 Authentication: Basic AUTH_TOKEN
 ```
 
-The returned data is either the result (in this case a token), or any errors:
+The returned data is either the result (in this case a bearer token), or any errors:
 
 ```
 {
