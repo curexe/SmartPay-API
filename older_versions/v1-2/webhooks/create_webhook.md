@@ -8,6 +8,13 @@ POST https://api.smartpay.curexe.com/1-2/create_webhook
 
 Creates a new webhook.  If any mandatory parameters are omitted it will be rejected.
 
+### The following topics are available to be subscribed to:
+> invoice/created<br />
+> invoice/paid<br />
+> invoice/cancelled<br />
+> order/created<br />
+> order/cancelled
+
 ## Input Parameters
 
 <table>
@@ -21,7 +28,7 @@ Creates a new webhook.  If any mandatory parameters are omitted it will be rejec
     <td>topic</td>
     <td>invoice/created</td>
     <td>Yes</td>
-    <td>Must be a valid <a href="overview.md">webhooks topic</a></td>
+    <td>Must be a valid topic</td>
   </tr>
   <tr>
     <td>url</td>
