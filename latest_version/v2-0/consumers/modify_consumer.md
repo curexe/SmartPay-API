@@ -3,6 +3,7 @@
 ~~~
 PATCH https://api.smartpay.curexe.com/2-0/consumers/{{CONSUMER_ID}}
 ~~~
+* replace {{CONSUMER_ID}} with the actual consumer_id
 
 ## Description
 
