@@ -8,7 +8,7 @@ https://api.smartpay.curexe.com/1-2/modify_consumer
 
 Modifies a consumer.  This is a patch action and will only change the values submitted.
 
-## Input Parameters
+## Parameters
 
 <table>
   <tr>
@@ -85,7 +85,7 @@ Modifies a consumer.  This is a patch action and will only change the values sub
   </tr>
 </table>
 
-## Resultset
+## Result
 
 <table>
   <tr>
