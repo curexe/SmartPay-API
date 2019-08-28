@@ -1,16 +1,16 @@
-# Modify Consumer
+# Get Consumers
 
 ~~~
-https://api.smartpay.curexe.com/1-2/modify_consumer
+POST https://api.smartpay.curexe.com/1-2/get_consumers
 ~~~
 
 ## Description
 
-The /modify_consumer endpoint allows retailers to update consumer details.
+Retreives a list of consumers.  Parameters can be used to filter the list. 
 
-> ***Warning**: This is a write query. Any data sent through this endpoint will be written to the SmartPay database in real-time. There is no undo. Please use with caution.*
+Will return up to 100 results at a time.  Use <b>page</b> to retreive the next results in the set.
 
-## Input Parameters
+## Parameters
 
 <table>
   <tr>
@@ -20,92 +20,68 @@ The /modify_consumer endpoint allows retailers to update consumer details.
     <td><b>Notes</b></td>
   </tr>
   <tr>
-    <td>token</td>
-    <td>ABC123</td>
-    <td>Yes</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>format</td>
-    <td>json</td>
+    <td>page</td>
+    <td>1</td>
     <td>No</td>
-    <td>At this time only JSON format is available</td>
+    <td>Defaults to 1 if not specified</td>
   </tr>
   <tr>
     <td>consumer_id</td>
     <td>aBc123</td>
-    <td>Yes</td>
+    <td>No</td>
     <td></td>
   </tr>
   <tr>
     <td>custom_consumer_id</td>
     <td>aBc123</td>
     <td>No</td>
-    <td></td>
+    <td>Configurable custom alphanumeric ID, up to a maximum of 32 characters</td>
   </tr>
   <tr>
-    <td>first_name</td>
-    <td>John</td>
+    <td>order_id</td>
+    <td>aBc123</td>
     <td>No</td>
     <td></td>
   </tr>
   <tr>
-    <td>last_name</td>
-    <td>Smith</td>
+    <td>invoice_id</td>
+    <td>aBc123</td>
     <td>No</td>
     <td></td>
+  </tr>
+  <tr>
+    <td>name</td>
+    <td>Joh</td>
+    <td>No</td>
+    <td>Will do partial matches</td>
   </tr>
   <tr>
     <td>email</td>
-    <td>name@domain.com</td>
-    <td>No</td>
-    <td>Must be valid. Must be unique.</td>
-  </tr>
-  <tr>
-    <td>phone</td>
-    <td>555-555-5555</td>
+    <td>john.smith@email.com</td>
     <td>No</td>
     <td></td>
   </tr>
   <tr>
-    <td>street_address</td>
-    <td>1 Main Street, #100</td>
+    <td>created_from</td>
+    <td>2018-01-01 14:00:00</td>
     <td>No</td>
-    <td></td>
+    <td>UTC (Coordinated Universal Time)</td>
   </tr>
   <tr>
-    <td>city</td>
-    <td>Toronto</td>
+    <td>created_to</td>
+    <td>2018-02-01 14:00:00</td>
     <td>No</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>province_state</td>
-    <td>ON</td>
-    <td>No</td>
-    <td>ISO code</td>
-  </tr>
-  <tr>
-    <td>country</td>
-    <td>CA</td>
-    <td>No</td>
-    <td>ISO code</td>
-  </tr>
-  <tr>
-    <td>postal_code</td>
-    <td>M1M 1M1</td>
-    <td>No</td>
-    <td></td>
+    <td>UTC (Coordinated Universal Time)</td>
   </tr>
 </table>
 
-## Resultset
+## Result
 
 <table>
   <tr>
     <td><b>Field</b></td>
     <td><b>Value</b></td>
-    <td><b><b>Notes</b></b></td>
+    <td><b>Notes</b></td>
   </tr>
   <tr>
     <td>consumer_id</td>
@@ -115,7 +91,7 @@ The /modify_consumer endpoint allows retailers to update consumer details.
   <tr>
     <td>custom_consumer_id</td>
     <td>aBc123</td>
-    <td></td>
+    <td>Configurable custom alphanumeric ID, up to a maximum of 32 characters</td>
   </tr>
   <tr>
     <td>name</td>
@@ -124,7 +100,7 @@ The /modify_consumer endpoint allows retailers to update consumer details.
   </tr>
   <tr>
     <td>email</td>
-    <td>john@smith.com</td>
+    <td>john.smith@email.com</td>
     <td></td>
   </tr>
   <tr>
@@ -134,7 +110,7 @@ The /modify_consumer endpoint allows retailers to update consumer details.
   </tr>
   <tr>
     <td>street_address</td>
-    <td>1 Main Street, #100</td>
+    <td>123 Street</td>
     <td></td>
   </tr>
   <tr>
@@ -160,6 +136,16 @@ The /modify_consumer endpoint allows retailers to update consumer details.
   <tr>
     <td>is_dummy</td>
     <td>false</td>
-    <td>true or false</td>
+    <td><b>false</b> for live data, <b>true</b> for test 'dummy' data</td>
+  </tr>
+  <tr>
+    <td>number_of_orders</td>
+    <td>3</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>amount_purchased</td>
+    <td>150.00</td>
+    <td></td>
   </tr>
 </table>

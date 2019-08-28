@@ -2,7 +2,7 @@
 
 ## Overview
 
-<img src="diagram.png">
+<img src="diagram-24tgad.png">
 
 ## Endpoints
 
@@ -12,26 +12,28 @@
 
 ### Consumers
 
-- [/get_consumers](get_consumers.md)
-- [/create_consumer](create_consumer.md)
-- [/modify_consumer](modify_consumer.md)
-- [/delete_consumer](delete_consumer.md)
+- [/get_consumers](consumers/get_consumers.md)
+- [/create_consumer](consumers/create_consumer.md)
+- [/modify_consumer](consumers/modify_consumer.md)
+- [/delete_consumer](consumers/delete_consumer.md)
 
 ### Orders
 
-Orders are the outcome of a consumer shopping experience, and will always result in one or more invoices depending on whether the order stipulates a one-time purchase or multiple recurring purchases.
+Orders are a grouping of invoices.  Each orders has at least 1 invoice initially (a single amount to be collected from the consumer).  Future implementations of recurring billing will include multiple invoices per order.
 
-- [/get_orders](get_orders.md)
-- [/modify_order](modify_order.md)
-- [/cancel_order](cancel_order.md)
+- [/get_orders](orders/get_orders.md)
 
 ### Invoices
 
-Invoices are generated from orders, and can be thought of as payments. An invoice amount is received from the consumer, transfered to SmartPay, and then remitted post-adjustment to the retailer.
+Invoices represent the amount to be collected from the consumer, when it was received, and if there was any problems with processing the payment.
 
-- [/get_invoices](get_invoices.md)
-- [/cancel_invoice](cancel_invoice.md)
+- [/get_invoices](invoices/get_invoices.md)
 
-## Changelog
+### Webhooks
 
-- Addition of custom_consumer_id and custom_order_id
+Webhooks allow you to subscribe to have status updates sent to a url when certain actions occur within SmartPay.
+
+- [/get_webhooks](webhooks/get_webhooks.md)
+- [/create_webhook](webhooks/create_webhook.md)
+- [/modify_webhook](webhooks/modify_webhook.md)
+- [/delete_webhook](webhooks/delete_webhook.md)

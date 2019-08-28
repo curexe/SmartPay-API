@@ -1,7 +1,7 @@
 # Authenticate
 
 ~~~
-https://api.smartpay.curexe.com/1-2/authenticate
+POST https://api.smartpay.curexe.com/1-2/authenticate
 ~~~
 
 ## Description
@@ -23,12 +23,6 @@ The /authenticate endpoint is required to initiate an API session, and outputs a
     <td>Yes</td>
     <td></td>
   </tr>
-  <tr>
-    <td>format</td>
-    <td>json</td>
-    <td>No</td>
-    <td>At this time only JSON format is available</td>
-  </tr>
 </table>
 
 ## Resultset
@@ -37,7 +31,7 @@ The /authenticate endpoint is required to initiate an API session, and outputs a
   <tr>
     <td><b>Field</b></td>
     <td><b>Value</b></td>
-    <td><b><b>Notes</b></b></td>
+    <td><b>Notes</b></td>
   </tr>
   <tr>
     <td>token</td>
@@ -45,13 +39,8 @@ The /authenticate endpoint is required to initiate an API session, and outputs a
     <td></td>
   </tr>
   <tr>
-    <td>requested_on</td>
-    <td>2018-01-01 12:00:00</td>
-    <td>GMT</td>
-  </tr>
-  <tr>
     <td>expires_on</td>
     <td>2018-01-01 13:00:00</td>
-    <td>GMT</td>
+    <td>UTC (Coordinated Universal Time)</td>
   </tr>
 </table>
