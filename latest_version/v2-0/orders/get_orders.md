@@ -1,4 +1,4 @@
-# Get Orders
+# List Orders
 
 ~~~
 GET https://api.smartpay.curexe.com/2-0/orders

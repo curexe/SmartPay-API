@@ -1,4 +1,4 @@
-# Get Consumers
+# List Consumers
 
 ~~~
 GET https://api.smartpay.curexe.com/2-0/consumers

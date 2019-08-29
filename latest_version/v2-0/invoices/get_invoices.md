@@ -1,4 +1,4 @@
-# Get Invoices
+# List Invoices
 
 ~~~
 GET https://api.smartpay.curexe.com/2-0/invoices

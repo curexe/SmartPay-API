@@ -1,4 +1,4 @@
-# Get Webhooks
+# List Webhooks
 
 ~~~
 GET https://api.smartpay.curexe.com/2-0/webhooks
