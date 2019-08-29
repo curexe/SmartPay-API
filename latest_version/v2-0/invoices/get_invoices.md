@@ -62,7 +62,7 @@ Will return up to 100 results at a time.  Use <b>page</b> to retreive the next r
     <td>payment_method</td>
     <td>d</td>
     <td>No</td>
-    <td><b>d</b> for Debit, <b>e</b>b> for eTransfer</td>
+    <td><b>d</b> for Debit, <b>e</b> for eTransfer</td>
   </tr>
   <tr>
     <td>created_from</td>
