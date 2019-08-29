@@ -1,4 +1,4 @@
-# Modify Webhook
+# Test Webhook
 
 ~~~
 PUT https://api.smartpay.curexe.com/2-0/webhooks/{{WEBHOOK_ID}}/actions/test
