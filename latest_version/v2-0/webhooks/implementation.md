@@ -34,7 +34,7 @@ The following HTTP headers are provided:
 
 **X-SmartPay-Topic**
 
-Contains the topic of the webhooks. a
+Contains the topic of the webhooks. 
 
 *Example: invoice/paid*
 
