@@ -1,4 +1,4 @@
-[&larr; API Overview](../overview.md)
+
 # Webhooks Implementation
 
 Webhooks allow you to subscribe to have status updates sent to a url when certain actions occur within SmartPay.

@@ -1,4 +1,4 @@
-[&larr; API Overview](../overview.md)
+
 # Delete Webhook
 
 ~~~
