@@ -47,7 +47,11 @@ Each webhook request includes a base64-encoded X-SmartPay-Hmac-SHA256 header, wh
 ### Validation Example (PHP)
 
 > $data = file_get_contents('php://input');
+>
 > $hmac = base64_encode(hash_hmac('sha256', $data, API_KEY, true));
+>
 > if ($hmac  ==  getallheaders()[‘X-SmartPay-Hmac-Sha256’]) {
+>
 > 	echo ‘is valid!’;
+>
 > }
