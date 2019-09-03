@@ -49,7 +49,7 @@ Each webhook request includes a base64-encoded X-SmartPay-Hmac-SHA256 header, wh
 3.	When a webhook is created (or modified) a notification of the topic *webhook/created* will be sent to the webhook URL as a test.
 4.	The API will reject a webhook for a URL that cannot be reached or does not respond with *200 OK* in response to the test.
 
-## Topics:
+### Topics:
 
 The following topics are available to be subscribed to:
 
