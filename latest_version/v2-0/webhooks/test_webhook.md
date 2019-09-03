@@ -59,8 +59,6 @@ The webhook notification will include { is_dummy:true } as part of it's payload.
 
 ## See Also:
 
-[For additional information please see our webhooks implementation document.](implementation.md)
-
 - List Webhooks
   * [GET /webhooks](get_webhooks.md)
 - Create Webhook
@@ -69,3 +67,5 @@ The webhook notification will include { is_dummy:true } as part of it's payload.
   * [PATCH /webhooks/ID](modify_webhook.md)
 - Delete Webhook
   * [DELETE /webhooks/ID](delete_webhook.md)
+
+[For additional information please see our webhooks implementation document.](implementation.md)

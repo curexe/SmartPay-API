@@ -57,8 +57,6 @@ Deletes a webhook.
 
 ## See Also:
 
-[For additional information please see our webhooks implementation document.](implementation.md)
-
 - List Webhooks
   * [GET /webhooks](get_webhooks.md)
 - Create Webhook
@@ -67,3 +65,5 @@ Deletes a webhook.
   * [PATCH /webhooks/ID](modify_webhook.md)
 - Test Webhook
   * [PUT /webhooks/ID/actions/test](test_webhook.md)
+
+[For additional information please see our webhooks implementation document.](implementation.md)

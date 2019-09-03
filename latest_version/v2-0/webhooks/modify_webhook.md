@@ -65,8 +65,6 @@ Modifies a webhook.  This is a patch action and will only change the values subm
 
 ## See Also:
 
-[For additional information please see our webhooks implementation document.](implementation.md)
-
 - List Webhooks
   * [GET /webhooks](get_webhooks.md)
 - Create Webhook
@@ -75,3 +73,5 @@ Modifies a webhook.  This is a patch action and will only change the values subm
   * [DELETE /webhooks/ID](delete_webhook.md)
 - Test Webhook
   * [PUT /webhooks/ID/actions/test](test_webhook.md)
+
+[For additional information please see our webhooks implementation document.](implementation.md)

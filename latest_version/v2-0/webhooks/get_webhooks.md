@@ -96,8 +96,6 @@ Will return up to 100 results at a time.  Use <b>page</b> to retreive the next r
 
 ## See Also:
 
-[For additional information please see our webhooks implementation document.](implementation.md)
-
 - Create Webhook
   * [POST /webhooks](create_webhook.md)
 - Modify Webhook
@@ -106,3 +104,5 @@ Will return up to 100 results at a time.  Use <b>page</b> to retreive the next r
   * [DELETE /webhooks/ID](delete_webhook.md)
 - Test Webhook
   * [PUT /webhooks/ID/actions/test](test_webhook.md)
+
+[For additional information please see our webhooks implementation document.](implementation.md)
