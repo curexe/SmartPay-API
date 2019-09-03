@@ -10,7 +10,7 @@ The 2.0 API is built as a series of endpoints (urls) that are built in a <a href
 
 # How-To
 
-If you are unfamilar how to query APIs our [How-To Guide](how-to.md) shows the basics demonstraited with a free tool called PostMan to help you get started.
+If you are unfamilar how to query APIs our [How-To Guide](how-to.md) shows the basics demonstrated with a free tool called PostMan to help you get started.
 
 # API Overview
 
@@ -19,18 +19,6 @@ See the [Overview Document](overview.md) for details about the endpoint structur
 # Getting Started
 
 ## Authentication & Tokens
-
-The SmartPay API accepts queries using a two-phase approach: the authentication handshake and then the actual query itself. In either scenario, the system is queried with a version number, an endpoint (which defines the type of information requested), any input parameters, and then returns a resultset in response.
-
-The URL structure for querying the API is as follows:
-
-```
-https://api.smartpay.curexe.com/2-0/authenticate
-```
-
-* <b>2-0</b> represents the version number, and <b>authenticate</b> represents the endpoint.
-
-## Authentication Example
 
 <i>Getting an api_key: after registering with SmartPay your api key is available in the <b>Integrate</b> section of the dashboard.</i>
 
