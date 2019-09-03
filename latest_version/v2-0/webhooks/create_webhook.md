@@ -10,7 +10,7 @@ Creates a new webhook.  If any mandatory parameters are omitted it will be rejec
 
 Note: If a webhook url is unreachable 10 times the webhook will be disabled.
 
-[For additional information see our Webhooks Implementation document.](implementation.md)
+For additional information please see our [webhooks implementation document](implementation.md)
 
 ## Headers
 

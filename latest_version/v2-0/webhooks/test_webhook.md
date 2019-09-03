@@ -11,6 +11,8 @@ Test a webhook.  Requests the server to send a test notification to the url of t
 
 The webhook notification will include { is_dummy:true } as part of it's payload.
 
+For additional information please see our [webhooks implementation document](implementation.md)
+
 ## Headers
 
 <table>
