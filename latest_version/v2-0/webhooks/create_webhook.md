@@ -13,7 +13,7 @@ Note: If a webhook url is unreachable 10 times the webhook will be disabled.
 [For additional information see our Webhooks Implementation document.](implementation.md)
 
 ## Headers
-s
+
 <table>
   <tr>
     <td><b>Header</b></td>
