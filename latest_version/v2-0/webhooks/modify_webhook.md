@@ -11,6 +11,8 @@ Modifies a webhook.  This is a patch action and will only change the values subm
 
 Note: If a webhook url is unreachable 10 times the webhook will be disabled.
 
+[For additional information please see our webhooks implementation document.](implementation.md)
+
 ## Headers
 
 <table>

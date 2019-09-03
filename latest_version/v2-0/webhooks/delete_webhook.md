@@ -9,6 +9,8 @@ DELETE https://api.smartpay.curexe.com/2-0/webhooks/{{WEBHOOK_ID}}
 
 Deletes a webhook.
 
+[For additional information please see our webhooks implementation document.](implementation.md)
+
 ## Headers
 
 <table>

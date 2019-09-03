@@ -10,6 +10,8 @@ Retreives a list of webhooks.  Parameters can be used to filter the list.
 
 Will return up to 100 results at a time.  Use <b>page</b> to retreive the next results in the set.
 
+[For additional information please see our webhooks implementation document.](implementation.md)
+
 ## Headers
 
 <table>
