@@ -99,10 +99,10 @@ Will return up to 100 results at a time.  Use <b>page</b> to retreive the next r
 [For additional information please see our webhooks implementation document.](implementation.md)
 
 - Create Webhook
-  * [POST /webhooks](webhooks/create_webhook.md)
+  * [POST /webhooks](create_webhook.md)
 - Modify Webhook
-  * [PATCH /webhooks/ID](webhooks/modify_webhook.md)
+  * [PATCH /webhooks/ID](modify_webhook.md)
 - Delete Webhook
-  * [DELETE /webhooks/ID](webhooks/delete_webhook.md)
+  * [DELETE /webhooks/ID](delete_webhook.md)
 - Test Webhook
-  * [PUT /webhooks/ID/actions/test](webhooks/test_webhook.md)
+  * [PUT /webhooks/ID/actions/test](test_webhook.md)

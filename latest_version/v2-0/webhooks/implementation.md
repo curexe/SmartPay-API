@@ -61,12 +61,12 @@ Each webhook request includes a base64-encoded X-SmartPay-Hmac-SHA256 header, wh
 ## See Also:
 
 - List Webhooks
-	* [GET /webhooks](webhooks/get_webhooks.md)
+	* [GET /webhooks](get_webhooks.md)
 - Create Webhook
-	* [POST /webhooks](webhooks/create_webhook.md)
+	* [POST /webhooks](create_webhook.md)
 - Modify Webhook
-	* [PATCH /webhooks/ID](webhooks/modify_webhook.md)
+	* [PATCH /webhooks/ID](modify_webhook.md)
 - Delete Webhook
-	* [DELETE /webhooks/ID](webhooks/delete_webhook.md)
+	* [DELETE /webhooks/ID](delete_webhook.md)
 - Test Webhook
-	* [PUT /webhooks/ID/actions/test](webhooks/test_webhook.md)
+	* [PUT /webhooks/ID/actions/test](test_webhook.md)
