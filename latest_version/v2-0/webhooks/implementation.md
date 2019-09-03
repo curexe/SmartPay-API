@@ -2,8 +2,8 @@
 
 ## How they work:
 
-1. When any action occurs that is related to a webhook topic… if that topic is subscribed to then a notification will be added to the webhook notification queue for processing.
-2.	The receiving server must respond **200 OK** in response to webhook pushes or it is assumed the server has an error or is unresponsive. 
+1.	When any action occurs that is related to a webhook topic, if that topic is subscribed to then a notification will be added to the webhook notification queue for processing.
+2.	The webhook will be sent as JSON POST data to the URL.  The receiving server must respond **200 OK** in response to webhook or it is assumed the server has an error or is unresponsive. 
 3.	If a webhook notification is undeliverable **20 times** the webhook will be disabled (and all associated queued webhook notifications for that webhook URL).
 
 ## Subscribing:
