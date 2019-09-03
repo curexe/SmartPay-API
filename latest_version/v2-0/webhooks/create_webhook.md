@@ -15,7 +15,7 @@ Creates a new webhook.  If any mandatory parameters are omitted it will be rejec
 
 *When processing notifications, if a webhook notification is undeliverable 20 times the webhook will be disabled (and all associated queued webhook notifications for that webhook URL).*
 
-[For additional information see: **Webhooks Implementation**.](README.md)
+[For additional information see: Webhooks Implementation.](README.md)
 
 ## Headers
 
@@ -88,4 +88,4 @@ Creates a new webhook.  If any mandatory parameters are omitted it will be rejec
 - Test Webhook
   * [PUT /webhooks/ID/actions/test](test_webhook.md)
 
-[For additional information see: **Webhooks Implementation**.](README.md)
+[For additional information see: Webhooks Implementation.](README.md)

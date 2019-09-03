@@ -11,7 +11,7 @@ Retreives a list of webhooks.  Parameters can be used to filter the list.
 
 Will return up to 100 results at a time.  Use <b>page</b> to retreive the next results in the set.
 
-[For additional information see: **Webhooks Implementation**.](README.md)
+[For additional information see: Webhooks Implementation.](README.md)
 
 ## Headers
 
@@ -106,4 +106,4 @@ Will return up to 100 results at a time.  Use <b>page</b> to retreive the next r
 - Test Webhook
   * [PUT /webhooks/ID/actions/test](test_webhook.md)
 
-[For additional information see: **Webhooks Implementation**.](README.md)
+[For additional information see: Webhooks Implementation.](README.md)
