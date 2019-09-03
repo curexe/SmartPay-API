@@ -8,9 +8,13 @@ POST https://api.smartpay.curexe.com/2-0/webhooks
 
 Creates a new webhook.  If any mandatory parameters are omitted it will be rejected.
 
-Note: If a webhook url is unreachable 10 times the webhook will be disabled.
+- You may subscribe to each available topic one time each. You cannot subscribe to a topic twice for separate URLs.
+- When a webhook is created (or modified) a notification of the topic webhook/created will be sent to the webhook URL as a test.
+- The API will reject a webhook for a URL that cannot be reached or does not respond with 200 OK in response to the test.
 
-[For additional information please see our webhooks implementation document.](implementation.md)
+*When processing notifications, if a webhook notification is undeliverable 20 times the webhook will be disabled (and all associated queued webhook notifications for that webhook URL).*
+
+[For additional information on webhooks see our implementation document.](implementation.md)
 
 ## Headers
 
@@ -71,3 +75,16 @@ Note: If a webhook url is unreachable 10 times the webhook will be disabled.
     <td></td>
   </tr>
 </table>
+
+## See Also:
+
+[For additional information please see our webhooks implementation document.](implementation.md)
+
+- List Webhooks
+  * [GET /webhooks](webhooks/get_webhooks.md)
+- Modify Webhook
+  * [PATCH /webhooks/ID](webhooks/modify_webhook.md)
+- Delete Webhook
+  * [DELETE /webhooks/ID](webhooks/delete_webhook.md)
+- Test Webhook
+  * [PUT /webhooks/ID/actions/test](webhooks/test_webhook.md)
