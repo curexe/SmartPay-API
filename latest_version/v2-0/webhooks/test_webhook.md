@@ -12,7 +12,7 @@ Test a webhook.  Requests the server to send a test notification to the url of t
 
 The webhook notification will include { is_dummy:true } as part of it's payload.
 
-[For additional information on webhooks see our implementation document.](README.md)
+[For additional information see: **Webhooks Implementation**.](README.md)
 
 ## Headers
 
@@ -69,4 +69,4 @@ The webhook notification will include { is_dummy:true } as part of it's payload.
 - Delete Webhook
   * [DELETE /webhooks/ID](delete_webhook.md)
 
-[For additional information please see our webhooks implementation document.](README.md)
+[For additional information see: **Webhooks Implementation**.](README.md)
