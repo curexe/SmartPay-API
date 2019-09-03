@@ -8,7 +8,7 @@ The 2.0 API is built as a series of endpoints (urls) that are built in a <a href
 - GET requests may use url params to filter the data.
 - /Authenticate issues a bearer token that must be sent with each request (good for up to 1 hour)
 
-# How-To
+# How-Toa
 
 If you are unfamilar how to query APIs our [How-To Guide](how-to.md) shows the basics demonstrated with a free tool called PostMan to help you get started.
 
