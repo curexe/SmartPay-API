@@ -36,7 +36,7 @@ Invoices represent the amount to be collected from the consumer, when it was rec
 
 Webhooks allow you to subscribe to have status updates sent to a url when certain actions occur within SmartPay.
 
-[For additional information please see our webhooks implementation document.](implementation.md)
+[For additional information please see our webhooks implementation document.](webhooks/README.md)
 
 - List Webhooks
 	* [GET /webhooks](webhooks/get_webhooks.md)
