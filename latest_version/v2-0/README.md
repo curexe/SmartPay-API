@@ -22,7 +22,7 @@ See the [Overview Document](overview.md) for details about the endpoint structur
 
 <i>Getting an api_key: after registering with SmartPay your api key is available in the <b>Integrate</b> section of the dashboard.</i>
 
-The endpoint /authenticate receives a <b>basic auth token</b> and issues a <b>bearer token</b> in response.  First you must generate an auth_token, and then you must include it in the Authentication HTTP header with the request sent to /authenticate.
+The endpoint /authenticate receives a <b>basic auth token</b> and issues a <b>bearer token</b> in response.  First you must generate an auth_token, and then you must include it in the Authorization HTTP header with the request sent to /authenticate.
 
 The auth_token is a base64 encoded copy of your public iframe_key, a colon, and and your secret api_key.
 
@@ -35,7 +35,7 @@ GET /2-0/authenticate
 
 Headers:
 ```
-Authentication: Basic AUTH_TOKEN
+Authorization: Basic AUTH_TOKEN
 ```
 
 The returned data is either the result (in this case a bearer token), or any errors:
@@ -62,13 +62,13 @@ The returned data is either the result (in this case a bearer token), or any err
 
 ## Using Token Example
 
-The token received from /authenticate is used to query all other endpoints for data.  This token is sent as a bearer token within the <b>Authentication</b> HTTP header.
+The token received from /authenticate is used to query all other endpoints for data.  This token is sent as a bearer token within the <b>Authorization</b> HTTP header.
 
 GET /2-0/get_consumers?created_after=2019-08-22%2001:02:03
 
 Headers:
 ```
-Authentication: Bearer ACCESS_TOKEN
+Authorization: Bearer ACCESS_TOKEN
 ```
 
 Result
