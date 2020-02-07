@@ -26,7 +26,7 @@ $auth_token = base64_encode("$iframe_key:$api_key");
     <td><b>Notes</b></td>
   </tr>
   <tr>
-    <td>Authentication: Basic AUTH_TOKEN</td>
+    <td>Authorization: Basic AUTH_TOKEN</td>
     <td>yes</td>
     <td>base64 encoded iframe_key:api_key (see above)</td>
   </tr>
