@@ -23,7 +23,7 @@ The webhook notification will include { is_dummy:true } as part of it's payload.
     <td><b>Notes</b></td>
   </tr>
   <tr>
-    <td>Authentication: Bearer ACCESS_TOKEN</td>
+    <td>Authorization: Bearer ACCESS_TOKEN</td>
     <td>yes</td>
     <td>the bearer token issued by <a href="..\authenticate\authenticate.md">authenticate</a></td>
   </tr>

@@ -26,7 +26,7 @@ Creates a new webhook.  If any mandatory parameters are omitted it will be rejec
     <td><b>Notes</b></td>
   </tr>
   <tr>
-    <td>Authentication: Bearer ACCESS_TOKEN</td>
+    <td>Authorization: Bearer ACCESS_TOKEN</td>
     <td>yes</td>
     <td>the bearer token issued by <a href="..\authenticate\authenticate.md">authenticate</a></td>
   </tr>

@@ -19,7 +19,7 @@ Will return up to 100 results at a time.  Use <b>page</b> to retreive the next r
     <td><b>Notes</b></td>
   </tr>
   <tr>
-    <td>Authentication: Bearer ACCESS_TOKEN</td>
+    <td>Authorization: Bearer ACCESS_TOKEN</td>
     <td>yes</td>
     <td>the bearer token issued by <a href="..\authenticate\authenticate.md">authenticate</a></td>
   </tr>

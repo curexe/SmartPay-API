@@ -8,7 +8,7 @@ GET https://api.smartpay.curexe.com/2-0/authenticate
 
 The /authenticate endpoint is required to initiate an API session, and outputs a bearer token which is used for additional queries over the span of an hour. Once a token has expired a new one must be requested by using the /authenticate endpoint.
 
-The endpoint /authenticate receives a <b>basic auth token</b> and issues a <b>bearer token</b> in response.  First you must generate an auth_token, and then you must include it in the Authentication HTTP header with the request sent to /authenticate.
+The endpoint /authenticate receives a <b>basic auth token</b> and issues a <b>bearer token</b> in response.  First you must generate an auth_token, and then you must include it in the Authorization HTTP header with the request sent to /authenticate.
 
 The auth_token is a base64 encoded copy of your public iframe_key, a colon, and and your secret api_key.
 
